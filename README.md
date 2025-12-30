@@ -28,20 +28,6 @@ We focus on four meta-constraints:
 
 Each constraint is treated as a restriction on learning dynamics, not as a task-specific heuristic or performance optimization.
 
----
-
-## Repository Structure
-
-```
-Meta-Constraints/
-├── commitment_meta_constraints.py
-├── humility_meta_constraints.py
-├── latent_state_meta_constraints.py
-├── vigilance_meta_constraints.py
-├── paper.pdf
-└── README.md
-```
-
 ### File Descriptions
 
 - **latent_state_meta_constraints.py**  
