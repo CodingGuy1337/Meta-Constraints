@@ -1,0 +1,25 @@
+PS C:\Users\tjsch\Desktop\stuff\Trinity> & C:/Users/tjsch/AppData/Local/Programs/Python/Python310/python.exe c:/Users/tjsch/Desktop/stuff/Trinity/humility_mvp.py
+=== Epistemic Self-Restraint Experiment v5 (distribution shift + ablation) ===
+T=450 t_reveal=250 alpha=0.35 sep=1.2 bias=1.1 sep_gold=5.0
+Gate (normalized):   z=(|ℓ|-μ-τ)/(σ+ε), g = g_min+(g_max-g_min)*sigmoid(-β z)  β=6.0
+Gate (NO-NORM ablation): z=(|ℓ|-μ-τ),      g = g_min+(g_max-g_min)*sigmoid(-β' z) β'=0.15
+g in [0.1,1.0] tau=0.15 rho=0.06  conf_thr=0.25 pre_conf_thr=0.45
+Recovery: EMA target=0.9 window=30
+
+Agent                    |   Brier(q) |     OCE(q) |   CWR(q) |  Abst(q) | PreConf(p) | WrongPre(p) |   RecInt |   RecRep      
+-------------------------------------------------------------------------------------------------------------------------      
+Naive-Bayes              | 0.8518±0.0518 | 0.2495±0.0004 | 0.852±0.052 | 0.004±0.003 | 0.991±0.010 | 0.988±0.015 | 165.9±19.7 | 165.9±19.7
+FixedGain-low            | 0.8508±0.0545 | 0.2476±0.0014 | 0.851±0.055 | 0.014±0.008 | 0.969±0.025 | 0.969±0.026 | 166.1±18.2 |FixedGain-high           | 0.8519±0.0480 | 0.2493±0.0005 | 0.852±0.048 | 0.004±0.004 | 0.989±0.013 | 0.987±0.018 | 166.3±17.6 | 166.3±17.6
+Humility-update          | 0.6160±0.0750 | 0.2437±0.0051 | 0.614±0.077 | 0.031±0.024 | 0.902±0.083 | 0.891±0.110 | 78.3±20.4 | 
+78.3±20.4
+Humility-project         | 0.4612±0.0381 | 0.2103±0.0047 | 0.374±0.039 | 0.421±0.019 | 0.899±0.069 | 0.893±0.084 | 78.3±20.6 | 
+83.0±116.0
+Humility-update(no-norm) | 0.8227±0.0521 | 0.2485±0.0010 | 0.823±0.052 | 0.009±0.007 | 0.974±0.023 | 0.972±0.029 | 157.3±19.5 | 157.3±19.5
+Humility-project(no-norm) | 0.5085±0.0255 | 0.0883±0.0009 | 0.619±0.036 | 0.253±0.014 | 0.975±0.021 | 0.974±0.025 | 158.3±18.6 
+|      inf
+
+Interpretation for Option A audience:
+- PreConf/WrongPre quantify premature commitment under spurious correlation (pre-shift).
+- CWR/OCE quantify confident wrongness (miscalibration under shift).
+- RecInt/RecRep quantify how quickly the system recovers after the shift breaks the spurious feature.
+- The NO-NORM ablation should degrade especially under sep sweeps (scale changes), showing normalization is essential.

@@ -1,0 +1,269 @@
+
+=== LOG START 2025-12-30 06:08:22 UTC ===
+[2025-12-30 06:08:22 UTC] Starting z-state geometry experiment (ONLY z-state vs instantaneous obs).
+[2025-12-30 06:08:22 UTC] Out: runs/zgeo1
+[2025-12-30 06:08:22 UTC] Episodes=200 Seeds=16 Horizon=250 d=16 K=12
+[2025-12-30 06:08:22 UTC] Env: drift_sigma=0.03 shock_prob=0.02 obs_noise=0.25 switch_cost=0.02
+[2025-12-30 06:08:22 UTC] Delayed penalty: window=30 thresh=6 delay=8 λ=0.25
+[2025-12-30 06:08:22 UTC] Z-state alpha=0.08
+[2025-12-30 06:08:22 UTC] Checkpoints: results.jsonl (append), results.csv + summary.csv (rolling)
+[2025-12-30 06:08:23 UTC] Progress: 50 trials | 135.26 trials/s | last=InstantObs seed0 ep49
+[2025-12-30 06:08:23 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:23 UTC] Progress: 100 trials | 136.12 trials/s | last=InstantObs seed0 ep99
+[2025-12-30 06:08:23 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:23 UTC] Progress: 150 trials | 134.84 trials/s | last=InstantObs seed0 ep149
+[2025-12-30 06:08:23 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:24 UTC] Progress: 200 trials | 134.55 trials/s | last=InstantObs seed0 ep199
+[2025-12-30 06:08:24 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:24 UTC] Progress: 250 trials | 128.11 trials/s | last=ZState(alpha=0.08) seed0 ep49
+[2025-12-30 06:08:24 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:25 UTC] Progress: 300 trials | 122.78 trials/s | last=ZState(alpha=0.08) seed0 ep99
+[2025-12-30 06:08:25 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:25 UTC] Progress: 350 trials | 117.58 trials/s | last=ZState(alpha=0.08) seed0 ep149
+[2025-12-30 06:08:25 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:26 UTC] Progress: 400 trials | 112.21 trials/s | last=ZState(alpha=0.08) seed0 ep199
+[2025-12-30 06:08:26 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:26 UTC] Progress: 450 trials | 114.86 trials/s | last=InstantObs seed1 ep49
+[2025-12-30 06:08:26 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:27 UTC] Progress: 500 trials | 116.75 trials/s | last=InstantObs seed1 ep99
+[2025-12-30 06:08:27 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:27 UTC] Progress: 550 trials | 111.12 trials/s | last=InstantObs seed1 ep149
+[2025-12-30 06:08:27 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:28 UTC] Progress: 600 trials | 112.26 trials/s | last=InstantObs seed1 ep199
+[2025-12-30 06:08:28 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:28 UTC] Progress: 650 trials | 111.17 trials/s | last=ZState(alpha=0.08) seed1 ep49
+[2025-12-30 06:08:28 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:29 UTC] Progress: 700 trials | 109.62 trials/s | last=ZState(alpha=0.08) seed1 ep99
+[2025-12-30 06:08:29 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:29 UTC] Progress: 750 trials | 108.83 trials/s | last=ZState(alpha=0.08) seed1 ep149
+[2025-12-30 06:08:29 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:30 UTC] Progress: 800 trials | 108.20 trials/s | last=ZState(alpha=0.08) seed1 ep199
+[2025-12-30 06:08:30 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:30 UTC] Progress: 850 trials | 106.44 trials/s | last=InstantObs seed2 ep49
+[2025-12-30 06:08:30 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:31 UTC] Progress: 900 trials | 107.31 trials/s | last=InstantObs seed2 ep99
+[2025-12-30 06:08:31 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:31 UTC] Progress: 950 trials | 105.78 trials/s | last=InstantObs seed2 ep149
+[2025-12-30 06:08:31 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:32 UTC] Progress: 1000 trials | 106.76 trials/s | last=InstantObs seed2 ep199
+[2025-12-30 06:08:32 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:32 UTC] Progress: 1050 trials | 106.37 trials/s | last=ZState(alpha=0.08) seed2 ep49
+[2025-12-30 06:08:32 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:33 UTC] Progress: 1100 trials | 105.66 trials/s | last=ZState(alpha=0.08) seed2 ep99
+[2025-12-30 06:08:33 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:33 UTC] Progress: 1150 trials | 105.70 trials/s | last=ZState(alpha=0.08) seed2 ep149
+[2025-12-30 06:08:33 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:34 UTC] Progress: 1200 trials | 105.66 trials/s | last=ZState(alpha=0.08) seed2 ep199
+[2025-12-30 06:08:34 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:34 UTC] Progress: 1250 trials | 106.36 trials/s | last=InstantObs seed3 ep49
+[2025-12-30 06:08:34 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:35 UTC] Progress: 1300 trials | 106.76 trials/s | last=InstantObs seed3 ep99
+[2025-12-30 06:08:35 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:35 UTC] Progress: 1350 trials | 106.85 trials/s | last=InstantObs seed3 ep149
+[2025-12-30 06:08:35 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:35 UTC] Progress: 1400 trials | 107.84 trials/s | last=InstantObs seed3 ep199
+[2025-12-30 06:08:35 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:36 UTC] Progress: 1450 trials | 107.49 trials/s | last=ZState(alpha=0.08) seed3 ep49
+[2025-12-30 06:08:36 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:36 UTC] Progress: 1500 trials | 107.49 trials/s | last=ZState(alpha=0.08) seed3 ep99
+[2025-12-30 06:08:36 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:37 UTC] Progress: 1550 trials | 107.57 trials/s | last=ZState(alpha=0.08) seed3 ep149
+[2025-12-30 06:08:37 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:37 UTC] Progress: 1600 trials | 107.62 trials/s | last=ZState(alpha=0.08) seed3 ep199
+[2025-12-30 06:08:37 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:38 UTC] Progress: 1650 trials | 108.34 trials/s | last=InstantObs seed4 ep49
+[2025-12-30 06:08:38 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:38 UTC] Progress: 1700 trials | 107.54 trials/s | last=InstantObs seed4 ep99
+[2025-12-30 06:08:38 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:39 UTC] Progress: 1750 trials | 107.13 trials/s | last=InstantObs seed4 ep149
+[2025-12-30 06:08:39 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:39 UTC] Progress: 1800 trials | 106.41 trials/s | last=InstantObs seed4 ep199
+[2025-12-30 06:08:39 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:40 UTC] Progress: 1850 trials | 105.66 trials/s | last=ZState(alpha=0.08) seed4 ep49
+[2025-12-30 06:08:40 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:40 UTC] Progress: 1900 trials | 105.72 trials/s | last=ZState(alpha=0.08) seed4 ep99
+[2025-12-30 06:08:40 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:41 UTC] Progress: 1950 trials | 105.96 trials/s | last=ZState(alpha=0.08) seed4 ep149
+[2025-12-30 06:08:41 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:41 UTC] Progress: 2000 trials | 105.82 trials/s | last=ZState(alpha=0.08) seed4 ep199
+[2025-12-30 06:08:41 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:42 UTC] Progress: 2050 trials | 106.41 trials/s | last=InstantObs seed5 ep49
+[2025-12-30 06:08:42 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:42 UTC] Progress: 2100 trials | 107.03 trials/s | last=InstantObs seed5 ep99
+[2025-12-30 06:08:42 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:43 UTC] Progress: 2150 trials | 106.13 trials/s | last=InstantObs seed5 ep149
+[2025-12-30 06:08:43 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:43 UTC] Progress: 2200 trials | 106.49 trials/s | last=InstantObs seed5 ep199
+[2025-12-30 06:08:43 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:43 UTC] Progress: 2250 trials | 106.50 trials/s | last=ZState(alpha=0.08) seed5 ep49
+[2025-12-30 06:08:43 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:44 UTC] Progress: 2300 trials | 106.62 trials/s | last=ZState(alpha=0.08) seed5 ep99
+[2025-12-30 06:08:44 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:44 UTC] Progress: 2350 trials | 106.64 trials/s | last=ZState(alpha=0.08) seed5 ep149
+[2025-12-30 06:08:44 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:45 UTC] Progress: 2400 trials | 106.76 trials/s | last=ZState(alpha=0.08) seed5 ep199
+[2025-12-30 06:08:45 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:45 UTC] Progress: 2450 trials | 107.29 trials/s | last=InstantObs seed6 ep49
+[2025-12-30 06:08:45 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:46 UTC] Progress: 2500 trials | 107.77 trials/s | last=InstantObs seed6 ep99
+[2025-12-30 06:08:46 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:46 UTC] Progress: 2550 trials | 108.14 trials/s | last=InstantObs seed6 ep149
+[2025-12-30 06:08:46 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:46 UTC] Progress: 2600 trials | 108.62 trials/s | last=InstantObs seed6 ep199
+[2025-12-30 06:08:46 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:47 UTC] Progress: 2650 trials | 108.62 trials/s | last=ZState(alpha=0.08) seed6 ep49
+[2025-12-30 06:08:47 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:47 UTC] Progress: 2700 trials | 108.43 trials/s | last=ZState(alpha=0.08) seed6 ep99
+[2025-12-30 06:08:47 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:48 UTC] Progress: 2750 trials | 108.44 trials/s | last=ZState(alpha=0.08) seed6 ep149
+[2025-12-30 06:08:48 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:48 UTC] Progress: 2800 trials | 108.42 trials/s | last=ZState(alpha=0.08) seed6 ep199
+[2025-12-30 06:08:48 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:49 UTC] Progress: 2850 trials | 108.88 trials/s | last=InstantObs seed7 ep49
+[2025-12-30 06:08:49 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:49 UTC] Progress: 2900 trials | 109.32 trials/s | last=InstantObs seed7 ep99
+[2025-12-30 06:08:49 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:49 UTC] Progress: 2950 trials | 109.74 trials/s | last=InstantObs seed7 ep149
+[2025-12-30 06:08:49 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:50 UTC] Progress: 3000 trials | 110.05 trials/s | last=InstantObs seed7 ep199
+[2025-12-30 06:08:50 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:50 UTC] Progress: 3050 trials | 110.01 trials/s | last=ZState(alpha=0.08) seed7 ep49
+[2025-12-30 06:08:50 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:51 UTC] Progress: 3100 trials | 108.47 trials/s | last=ZState(alpha=0.08) seed7 ep99
+[2025-12-30 06:08:51 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:51 UTC] Progress: 3150 trials | 108.02 trials/s | last=ZState(alpha=0.08) seed7 ep149
+[2025-12-30 06:08:52 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:52 UTC] Progress: 3200 trials | 107.80 trials/s | last=ZState(alpha=0.08) seed7 ep199
+[2025-12-30 06:08:52 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:52 UTC] Progress: 3250 trials | 108.02 trials/s | last=InstantObs seed8 ep49
+[2025-12-30 06:08:52 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:53 UTC] Progress: 3300 trials | 108.34 trials/s | last=InstantObs seed8 ep99
+[2025-12-30 06:08:53 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:53 UTC] Progress: 3350 trials | 108.67 trials/s | last=InstantObs seed8 ep149
+[2025-12-30 06:08:53 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:54 UTC] Progress: 3400 trials | 107.93 trials/s | last=InstantObs seed8 ep199
+[2025-12-30 06:08:54 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:54 UTC] Progress: 3450 trials | 107.84 trials/s | last=ZState(alpha=0.08) seed8 ep49
+[2025-12-30 06:08:54 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:55 UTC] Progress: 3500 trials | 106.76 trials/s | last=ZState(alpha=0.08) seed8 ep99
+[2025-12-30 06:08:55 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:56 UTC] Progress: 3550 trials | 106.61 trials/s | last=ZState(alpha=0.08) seed8 ep149
+[2025-12-30 06:08:56 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:56 UTC] Progress: 3600 trials | 106.48 trials/s | last=ZState(alpha=0.08) seed8 ep199
+[2025-12-30 06:08:56 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:57 UTC] Progress: 3650 trials | 106.56 trials/s | last=InstantObs seed9 ep49
+[2025-12-30 06:08:57 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:57 UTC] Progress: 3700 trials | 106.88 trials/s | last=InstantObs seed9 ep99
+[2025-12-30 06:08:57 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:57 UTC] Progress: 3750 trials | 107.09 trials/s | last=InstantObs seed9 ep149
+[2025-12-30 06:08:57 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:58 UTC] Progress: 3800 trials | 107.21 trials/s | last=InstantObs seed9 ep199
+[2025-12-30 06:08:58 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:58 UTC] Progress: 3850 trials | 107.21 trials/s | last=ZState(alpha=0.08) seed9 ep49
+[2025-12-30 06:08:58 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:59 UTC] Progress: 3900 trials | 107.19 trials/s | last=ZState(alpha=0.08) seed9 ep99
+[2025-12-30 06:08:59 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:08:59 UTC] Progress: 3950 trials | 107.16 trials/s | last=ZState(alpha=0.08) seed9 ep149
+[2025-12-30 06:08:59 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:00 UTC] Progress: 4000 trials | 107.10 trials/s | last=ZState(alpha=0.08) seed9 ep199
+[2025-12-30 06:09:00 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:00 UTC] Progress: 4050 trials | 107.34 trials/s | last=InstantObs seed10 ep49
+[2025-12-30 06:09:00 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:00 UTC] Progress: 4100 trials | 107.59 trials/s | last=InstantObs seed10 ep99
+[2025-12-30 06:09:00 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:01 UTC] Progress: 4150 trials | 107.28 trials/s | last=InstantObs seed10 ep149
+[2025-12-30 06:09:01 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:02 UTC] Progress: 4200 trials | 106.88 trials/s | last=InstantObs seed10 ep199
+[2025-12-30 06:09:02 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:02 UTC] Progress: 4250 trials | 106.70 trials/s | last=ZState(alpha=0.08) seed10 ep49
+[2025-12-30 06:09:02 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:03 UTC] Progress: 4300 trials | 106.66 trials/s | last=ZState(alpha=0.08) seed10 ep99
+[2025-12-30 06:09:03 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:03 UTC] Progress: 4350 trials | 106.60 trials/s | last=ZState(alpha=0.08) seed10 ep149
+[2025-12-30 06:09:03 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:04 UTC] Progress: 4400 trials | 106.62 trials/s | last=ZState(alpha=0.08) seed10 ep199
+[2025-12-30 06:09:04 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:04 UTC] Progress: 4450 trials | 106.44 trials/s | last=InstantObs seed11 ep49
+[2025-12-30 06:09:04 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:05 UTC] Progress: 4500 trials | 106.42 trials/s | last=InstantObs seed11 ep99
+[2025-12-30 06:09:05 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:05 UTC] Progress: 4550 trials | 106.65 trials/s | last=InstantObs seed11 ep149
+[2025-12-30 06:09:05 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:05 UTC] Progress: 4600 trials | 106.83 trials/s | last=InstantObs seed11 ep199
+[2025-12-30 06:09:05 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:06 UTC] Progress: 4650 trials | 106.78 trials/s | last=ZState(alpha=0.08) seed11 ep49
+[2025-12-30 06:09:06 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:06 UTC] Progress: 4700 trials | 106.75 trials/s | last=ZState(alpha=0.08) seed11 ep99
+[2025-12-30 06:09:06 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:07 UTC] Progress: 4750 trials | 106.77 trials/s | last=ZState(alpha=0.08) seed11 ep149
+[2025-12-30 06:09:07 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:07 UTC] Progress: 4800 trials | 106.72 trials/s | last=ZState(alpha=0.08) seed11 ep199
+[2025-12-30 06:09:07 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:08 UTC] Progress: 4850 trials | 106.93 trials/s | last=InstantObs seed12 ep49
+[2025-12-30 06:09:08 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:08 UTC] Progress: 4900 trials | 107.14 trials/s | last=InstantObs seed12 ep99
+[2025-12-30 06:09:08 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:08 UTC] Progress: 4950 trials | 107.36 trials/s | last=InstantObs seed12 ep149
+[2025-12-30 06:09:08 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:09 UTC] Progress: 5000 trials | 107.58 trials/s | last=InstantObs seed12 ep199
+[2025-12-30 06:09:09 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:09 UTC] Progress: 5050 trials | 107.58 trials/s | last=ZState(alpha=0.08) seed12 ep49
+[2025-12-30 06:09:09 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:10 UTC] Progress: 5100 trials | 107.54 trials/s | last=ZState(alpha=0.08) seed12 ep99
+[2025-12-30 06:09:10 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:10 UTC] Progress: 5150 trials | 107.54 trials/s | last=ZState(alpha=0.08) seed12 ep149
+[2025-12-30 06:09:10 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:11 UTC] Progress: 5200 trials | 107.56 trials/s | last=ZState(alpha=0.08) seed12 ep199
+[2025-12-30 06:09:11 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:11 UTC] Progress: 5250 trials | 107.76 trials/s | last=InstantObs seed13 ep49
+[2025-12-30 06:09:11 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:11 UTC] Progress: 5300 trials | 107.96 trials/s | last=InstantObs seed13 ep99
+[2025-12-30 06:09:11 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:12 UTC] Progress: 5350 trials | 108.15 trials/s | last=InstantObs seed13 ep149
+[2025-12-30 06:09:12 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:12 UTC] Progress: 5400 trials | 108.31 trials/s | last=InstantObs seed13 ep199
+[2025-12-30 06:09:12 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:13 UTC] Progress: 5450 trials | 108.31 trials/s | last=ZState(alpha=0.08) seed13 ep49
+[2025-12-30 06:09:13 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:13 UTC] Progress: 5500 trials | 108.30 trials/s | last=ZState(alpha=0.08) seed13 ep99
+[2025-12-30 06:09:13 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:14 UTC] Progress: 5550 trials | 108.29 trials/s | last=ZState(alpha=0.08) seed13 ep149
+[2025-12-30 06:09:14 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:14 UTC] Progress: 5600 trials | 108.27 trials/s | last=ZState(alpha=0.08) seed13 ep199
+[2025-12-30 06:09:14 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:14 UTC] Progress: 5650 trials | 108.43 trials/s | last=InstantObs seed14 ep49
+[2025-12-30 06:09:14 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:15 UTC] Progress: 5700 trials | 108.60 trials/s | last=InstantObs seed14 ep99
+[2025-12-30 06:09:15 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:15 UTC] Progress: 5750 trials | 108.77 trials/s | last=InstantObs seed14 ep149
+[2025-12-30 06:09:15 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:16 UTC] Progress: 5800 trials | 108.94 trials/s | last=InstantObs seed14 ep199
+[2025-12-30 06:09:16 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:16 UTC] Progress: 5850 trials | 108.92 trials/s | last=ZState(alpha=0.08) seed14 ep49
+[2025-12-30 06:09:16 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:17 UTC] Progress: 5900 trials | 108.90 trials/s | last=ZState(alpha=0.08) seed14 ep99
+[2025-12-30 06:09:17 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:17 UTC] Progress: 5950 trials | 108.89 trials/s | last=ZState(alpha=0.08) seed14 ep149
+[2025-12-30 06:09:17 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:17 UTC] Progress: 6000 trials | 108.87 trials/s | last=ZState(alpha=0.08) seed14 ep199
+[2025-12-30 06:09:17 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:18 UTC] Progress: 6050 trials | 109.03 trials/s | last=InstantObs seed15 ep49
+[2025-12-30 06:09:18 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:18 UTC] Progress: 6100 trials | 109.19 trials/s | last=InstantObs seed15 ep99
+[2025-12-30 06:09:18 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:19 UTC] Progress: 6150 trials | 109.34 trials/s | last=InstantObs seed15 ep149
+[2025-12-30 06:09:19 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:19 UTC] Progress: 6200 trials | 109.49 trials/s | last=InstantObs seed15 ep199
+[2025-12-30 06:09:19 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:19 UTC] Progress: 6250 trials | 109.46 trials/s | last=ZState(alpha=0.08) seed15 ep49
+[2025-12-30 06:09:19 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:20 UTC] Progress: 6300 trials | 109.42 trials/s | last=ZState(alpha=0.08) seed15 ep99
+[2025-12-30 06:09:20 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:20 UTC] Progress: 6350 trials | 109.40 trials/s | last=ZState(alpha=0.08) seed15 ep149
+[2025-12-30 06:09:20 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:21 UTC] Progress: 6400 trials | 109.38 trials/s | last=ZState(alpha=0.08) seed15 ep199
+[2025-12-30 06:09:21 UTC] Wrote checkpoints: runs/zgeo1\results.csv and runs/zgeo1\summary.csv
+[2025-12-30 06:09:21 UTC] DONE. Rows=6400 Elapsed=58.6s
+[2025-12-30 06:09:21 UTC] Top-line summary:
+[2025-12-30 06:09:21 UTC]   ZState(alpha=0.08) | R=80.40±18.72 | churn=0.060 | switches=14.9 | drift=0.0022 | disson=0.4211
+[2025-12-30 06:09:21 UTC]   InstantObs         | R=23.12±19.28 | churn=0.731 | switches=182.0 | drift=0.0000 | disson=0.0000

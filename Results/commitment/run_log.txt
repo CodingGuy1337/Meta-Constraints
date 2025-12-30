@@ -1,0 +1,820 @@
+[2025-12-29 14:49:28] Run started.
+[2025-12-29 14:49:28] Output dir: C:\Users\tjsch\Desktop\Projects
+[2025-12-29 14:49:28] === Block Mech_Base (EnvA) | rollouts=8 horizon=12 ===
+[2025-12-29 14:49:28] Mech_Base | Argmax | episode 25/200
+[2025-12-29 14:49:28] Mech_Base | Argmax | episode 50/200
+[2025-12-29 14:49:29] Mech_Base | Argmax | episode 75/200
+[2025-12-29 14:49:29] Mech_Base | Argmax | episode 100/200
+[2025-12-29 14:49:29] Mech_Base | Argmax | episode 125/200
+[2025-12-29 14:49:30] Mech_Base | Argmax | episode 150/200
+[2025-12-29 14:49:30] Mech_Base | Argmax | episode 175/200
+[2025-12-29 14:49:39] Mech_Base EnvA Argmax | R 36.88±2.11 | ch 0.356 | osc 10.11
+[2025-12-29 14:49:39] Schema expanded (+18 keys). Rewriting rows CSV header.
+[2025-12-29 14:49:40] Mech_Base | Commitment | episode 25/200
+[2025-12-29 14:49:40] Mech_Base | Commitment | episode 50/200
+[2025-12-29 14:49:40] Mech_Base | Commitment | episode 75/200
+[2025-12-29 14:49:41] Mech_Base | Commitment | episode 100/200
+[2025-12-29 14:49:41] Mech_Base | Commitment | episode 125/200
+[2025-12-29 14:49:41] Mech_Base | Commitment | episode 150/200
+[2025-12-29 14:49:41] Mech_Base | Commitment | episode 175/200
+[2025-12-29 14:49:51] Mech_Base EnvA Commitment | R 61.93±2.80 | ch 0.030 | osc 0.07
+[2025-12-29 14:49:51] Mech_Base | Softmax(tau=0.5) | episode 25/200
+[2025-12-29 14:49:52] Mech_Base | Softmax(tau=0.5) | episode 50/200
+[2025-12-29 14:49:52] Mech_Base | Softmax(tau=0.5) | episode 75/200
+[2025-12-29 14:49:52] Mech_Base | Softmax(tau=0.5) | episode 100/200
+[2025-12-29 14:49:53] Mech_Base | Softmax(tau=0.5) | episode 125/200
+[2025-12-29 14:49:53] Mech_Base | Softmax(tau=0.5) | episode 150/200
+[2025-12-29 14:49:53] Mech_Base | Softmax(tau=0.5) | episode 175/200
+[2025-12-29 14:50:03] Mech_Base EnvA Softmax(tau=0.5) | R 35.91±2.03 | ch 0.468 | osc 13.71
+[2025-12-29 14:50:03] Mech_Base | LCB(k=1.0) | episode 25/200
+[2025-12-29 14:50:04] Mech_Base | LCB(k=1.0) | episode 50/200
+[2025-12-29 14:50:04] Mech_Base | LCB(k=1.0) | episode 75/200
+[2025-12-29 14:50:04] Mech_Base | LCB(k=1.0) | episode 100/200
+[2025-12-29 14:50:04] Mech_Base | LCB(k=1.0) | episode 125/200
+[2025-12-29 14:50:05] Mech_Base | LCB(k=1.0) | episode 150/200
+[2025-12-29 14:50:05] Mech_Base | LCB(k=1.0) | episode 175/200
+[2025-12-29 14:50:16] Mech_Base EnvA LCB(k=1.0) | R 36.58±1.95 | ch 0.392 | osc 11.32
+[2025-12-29 14:50:17] Mech_Base | EMA(ΔQ,a=0.2) | episode 25/200
+[2025-12-29 14:50:17] Mech_Base | EMA(ΔQ,a=0.2) | episode 50/200
+[2025-12-29 14:50:17] Mech_Base | EMA(ΔQ,a=0.2) | episode 75/200
+[2025-12-29 14:50:18] Mech_Base | EMA(ΔQ,a=0.2) | episode 100/200
+[2025-12-29 14:50:18] Mech_Base | EMA(ΔQ,a=0.2) | episode 125/200
+[2025-12-29 14:50:18] Mech_Base | EMA(ΔQ,a=0.2) | episode 150/200
+[2025-12-29 14:50:19] Mech_Base | EMA(ΔQ,a=0.2) | episode 175/200
+[2025-12-29 14:50:29] Mech_Base EnvA EMA(ΔQ,a=0.2) | R 48.21±12.87 | ch 0.182 | osc 8.19
+[2025-12-29 14:50:29] Mech_Base | Dwell(k=4) | episode 25/200
+[2025-12-29 14:50:29] Mech_Base | Dwell(k=4) | episode 50/200
+[2025-12-29 14:50:29] Mech_Base | Dwell(k=4) | episode 75/200
+[2025-12-29 14:50:29] Mech_Base | Dwell(k=4) | episode 100/200
+[2025-12-29 14:50:29] Mech_Base | Dwell(k=4) | episode 125/200
+[2025-12-29 14:50:30] Mech_Base | Dwell(k=4) | episode 150/200
+[2025-12-29 14:50:30] Mech_Base | Dwell(k=4) | episode 175/200
+[2025-12-29 14:50:32] Mech_Base EnvA Dwell(k=4) | R 36.47±4.51 | ch 0.503 | osc 27.03
+[2025-12-29 14:50:32] === Block Mech_Noise0 (EnvA) | rollouts=8 horizon=12 ===
+[2025-12-29 14:50:33] Mech_Noise0 | Argmax | episode 25/200
+[2025-12-29 14:50:33] Mech_Noise0 | Argmax | episode 50/200
+[2025-12-29 14:50:33] Mech_Noise0 | Argmax | episode 75/200
+[2025-12-29 14:50:33] Mech_Noise0 | Argmax | episode 100/200
+[2025-12-29 14:50:34] Mech_Noise0 | Argmax | episode 125/200
+[2025-12-29 14:50:34] Mech_Noise0 | Argmax | episode 150/200
+[2025-12-29 14:50:34] Mech_Noise0 | Argmax | episode 175/200
+[2025-12-29 14:50:44] Mech_Noise0 EnvA Argmax | R 57.14±10.68 | ch 0.089 | osc 1.57
+[2025-12-29 14:50:45] Mech_Noise0 | Commitment | episode 25/200
+[2025-12-29 14:50:45] Mech_Noise0 | Commitment | episode 50/200
+[2025-12-29 14:50:45] Mech_Noise0 | Commitment | episode 75/200
+[2025-12-29 14:50:46] Mech_Noise0 | Commitment | episode 100/200
+[2025-12-29 14:50:46] Mech_Noise0 | Commitment | episode 125/200
+[2025-12-29 14:50:46] Mech_Noise0 | Commitment | episode 150/200
+[2025-12-29 14:50:46] Mech_Noise0 | Commitment | episode 175/200
+[2025-12-29 14:50:56] Mech_Noise0 EnvA Commitment | R 62.31±0.83 | ch 0.029 | osc 0.03
+[2025-12-29 14:50:57] Mech_Noise0 | Softmax(tau=0.5) | episode 25/200
+[2025-12-29 14:50:57] Mech_Noise0 | Softmax(tau=0.5) | episode 50/200
+[2025-12-29 14:50:57] Mech_Noise0 | Softmax(tau=0.5) | episode 75/200
+[2025-12-29 14:50:58] Mech_Noise0 | Softmax(tau=0.5) | episode 100/200
+[2025-12-29 14:50:58] Mech_Noise0 | Softmax(tau=0.5) | episode 125/200
+[2025-12-29 14:50:58] Mech_Noise0 | Softmax(tau=0.5) | episode 150/200
+[2025-12-29 14:50:58] Mech_Noise0 | Softmax(tau=0.5) | episode 175/200
+[2025-12-29 14:51:08] Mech_Noise0 EnvA Softmax(tau=0.5) | R 35.96±0.45 | ch 0.460 | osc 13.36
+[2025-12-29 14:51:08] Mech_Noise0 | LCB(k=1.0) | episode 25/200
+[2025-12-29 14:51:09] Mech_Noise0 | LCB(k=1.0) | episode 50/200
+[2025-12-29 14:51:09] Mech_Noise0 | LCB(k=1.0) | episode 75/200
+[2025-12-29 14:51:09] Mech_Noise0 | LCB(k=1.0) | episode 100/200
+[2025-12-29 14:51:10] Mech_Noise0 | LCB(k=1.0) | episode 125/200
+[2025-12-29 14:51:10] Mech_Noise0 | LCB(k=1.0) | episode 150/200
+[2025-12-29 14:51:10] Mech_Noise0 | LCB(k=1.0) | episode 175/200
+[2025-12-29 14:51:20] Mech_Noise0 EnvA LCB(k=1.0) | R 46.53±11.94 | ch 0.122 | osc 2.71
+[2025-12-29 14:51:20] Mech_Noise0 | EMA(ΔQ,a=0.2) | episode 25/200
+[2025-12-29 14:51:20] Mech_Noise0 | EMA(ΔQ,a=0.2) | episode 50/200
+[2025-12-29 14:51:21] Mech_Noise0 | EMA(ΔQ,a=0.2) | episode 75/200
+[2025-12-29 14:51:21] Mech_Noise0 | EMA(ΔQ,a=0.2) | episode 100/200
+[2025-12-29 14:51:21] Mech_Noise0 | EMA(ΔQ,a=0.2) | episode 125/200
+[2025-12-29 14:51:21] Mech_Noise0 | EMA(ΔQ,a=0.2) | episode 150/200
+[2025-12-29 14:51:22] Mech_Noise0 | EMA(ΔQ,a=0.2) | episode 175/200
+[2025-12-29 14:51:31] Mech_Noise0 EnvA EMA(ΔQ,a=0.2) | R 57.62±10.35 | ch 0.074 | osc 2.58
+[2025-12-29 14:51:31] Mech_Noise0 | Dwell(k=4) | episode 25/200
+[2025-12-29 14:51:32] Mech_Noise0 | Dwell(k=4) | episode 50/200
+[2025-12-29 14:51:32] Mech_Noise0 | Dwell(k=4) | episode 75/200
+[2025-12-29 14:51:32] Mech_Noise0 | Dwell(k=4) | episode 100/200
+[2025-12-29 14:51:32] Mech_Noise0 | Dwell(k=4) | episode 125/200
+[2025-12-29 14:51:32] Mech_Noise0 | Dwell(k=4) | episode 150/200
+[2025-12-29 14:51:32] Mech_Noise0 | Dwell(k=4) | episode 175/200
+[2025-12-29 14:51:34] Mech_Noise0 EnvA Dwell(k=4) | R 40.09±9.54 | ch 0.497 | osc 28.25
+[2025-12-29 14:51:34] === Block Mech_Penalty0 (EnvA) | rollouts=8 horizon=12 ===
+[2025-12-29 14:51:35] Mech_Penalty0 | Argmax | episode 25/200
+[2025-12-29 14:51:35] Mech_Penalty0 | Argmax | episode 50/200
+[2025-12-29 14:51:35] Mech_Penalty0 | Argmax | episode 75/200
+[2025-12-29 14:51:36] Mech_Penalty0 | Argmax | episode 100/200
+[2025-12-29 14:51:36] Mech_Penalty0 | Argmax | episode 125/200
+[2025-12-29 14:51:36] Mech_Penalty0 | Argmax | episode 150/200
+[2025-12-29 14:51:36] Mech_Penalty0 | Argmax | episode 175/200
+[2025-12-29 14:51:47] Mech_Penalty0 EnvA Argmax | R 61.85±1.95 | ch 0.356 | osc 10.11
+[2025-12-29 14:51:47] Mech_Penalty0 | Commitment | episode 25/200
+[2025-12-29 14:51:48] Mech_Penalty0 | Commitment | episode 50/200
+[2025-12-29 14:51:48] Mech_Penalty0 | Commitment | episode 75/200
+[2025-12-29 14:51:48] Mech_Penalty0 | Commitment | episode 100/200
+[2025-12-29 14:51:48] Mech_Penalty0 | Commitment | episode 125/200
+[2025-12-29 14:51:49] Mech_Penalty0 | Commitment | episode 150/200
+[2025-12-29 14:51:49] Mech_Penalty0 | Commitment | episode 175/200
+[2025-12-29 14:51:59] Mech_Penalty0 EnvA Commitment | R 62.08±2.14 | ch 0.030 | osc 0.07
+[2025-12-29 14:51:59] Mech_Penalty0 | Softmax(tau=0.5) | episode 25/200
+[2025-12-29 14:51:59] Mech_Penalty0 | Softmax(tau=0.5) | episode 50/200
+[2025-12-29 14:52:00] Mech_Penalty0 | Softmax(tau=0.5) | episode 75/200
+[2025-12-29 14:52:00] Mech_Penalty0 | Softmax(tau=0.5) | episode 100/200
+[2025-12-29 14:52:00] Mech_Penalty0 | Softmax(tau=0.5) | episode 125/200
+[2025-12-29 14:52:00] Mech_Penalty0 | Softmax(tau=0.5) | episode 150/200
+[2025-12-29 14:52:01] Mech_Penalty0 | Softmax(tau=0.5) | episode 175/200
+[2025-12-29 14:52:11] Mech_Penalty0 EnvA Softmax(tau=0.5) | R 60.91±2.03 | ch 0.468 | osc 13.71
+[2025-12-29 14:52:11] Mech_Penalty0 | LCB(k=1.0) | episode 25/200
+[2025-12-29 14:52:12] Mech_Penalty0 | LCB(k=1.0) | episode 50/200
+[2025-12-29 14:52:12] Mech_Penalty0 | LCB(k=1.0) | episode 75/200
+[2025-12-29 14:52:12] Mech_Penalty0 | LCB(k=1.0) | episode 100/200
+[2025-12-29 14:52:13] Mech_Penalty0 | LCB(k=1.0) | episode 125/200
+[2025-12-29 14:52:13] Mech_Penalty0 | LCB(k=1.0) | episode 150/200
+[2025-12-29 14:52:13] Mech_Penalty0 | LCB(k=1.0) | episode 175/200
+[2025-12-29 14:52:23] Mech_Penalty0 EnvA LCB(k=1.0) | R 61.58±1.95 | ch 0.392 | osc 11.32
+[2025-12-29 14:52:24] Mech_Penalty0 | EMA(ΔQ,a=0.2) | episode 25/200
+[2025-12-29 14:52:24] Mech_Penalty0 | EMA(ΔQ,a=0.2) | episode 50/200
+[2025-12-29 14:52:24] Mech_Penalty0 | EMA(ΔQ,a=0.2) | episode 75/200
+[2025-12-29 14:52:25] Mech_Penalty0 | EMA(ΔQ,a=0.2) | episode 100/200
+[2025-12-29 14:52:25] Mech_Penalty0 | EMA(ΔQ,a=0.2) | episode 125/200
+[2025-12-29 14:52:25] Mech_Penalty0 | EMA(ΔQ,a=0.2) | episode 150/200
+[2025-12-29 14:52:25] Mech_Penalty0 | EMA(ΔQ,a=0.2) | episode 175/200
+[2025-12-29 14:52:35] Mech_Penalty0 EnvA EMA(ΔQ,a=0.2) | R 62.36±2.04 | ch 0.189 | osc 8.48
+[2025-12-29 14:52:35] Mech_Penalty0 | Dwell(k=4) | episode 25/200
+[2025-12-29 14:52:35] Mech_Penalty0 | Dwell(k=4) | episode 50/200
+[2025-12-29 14:52:35] Mech_Penalty0 | Dwell(k=4) | episode 75/200
+[2025-12-29 14:52:35] Mech_Penalty0 | Dwell(k=4) | episode 100/200
+[2025-12-29 14:52:35] Mech_Penalty0 | Dwell(k=4) | episode 125/200
+[2025-12-29 14:52:36] Mech_Penalty0 | Dwell(k=4) | episode 150/200
+[2025-12-29 14:52:36] Mech_Penalty0 | Dwell(k=4) | episode 175/200
+[2025-12-29 14:52:38] Mech_Penalty0 EnvA Dwell(k=4) | R 60.92±2.17 | ch 0.504 | osc 27.07
+[2025-12-29 14:52:38] === Block Mech_Flip0 (EnvA) | rollouts=8 horizon=12 ===
+[2025-12-29 14:52:38] Mech_Flip0 | Argmax | episode 25/200
+[2025-12-29 14:52:39] Mech_Flip0 | Argmax | episode 50/200
+[2025-12-29 14:52:39] Mech_Flip0 | Argmax | episode 75/200
+[2025-12-29 14:52:39] Mech_Flip0 | Argmax | episode 100/200
+[2025-12-29 14:52:40] Mech_Flip0 | Argmax | episode 125/200
+[2025-12-29 14:52:40] Mech_Flip0 | Argmax | episode 150/200
+[2025-12-29 14:52:40] Mech_Flip0 | Argmax | episode 175/200
+[2025-12-29 14:52:50] Mech_Flip0 EnvA Argmax | R 37.39±2.60 | ch 0.299 | osc 8.62
+[2025-12-29 14:52:50] Mech_Flip0 | Commitment | episode 25/200
+[2025-12-29 14:52:50] Mech_Flip0 | Commitment | episode 50/200
+[2025-12-29 14:52:51] Mech_Flip0 | Commitment | episode 75/200
+[2025-12-29 14:52:51] Mech_Flip0 | Commitment | episode 100/200
+[2025-12-29 14:52:51] Mech_Flip0 | Commitment | episode 125/200
+[2025-12-29 14:52:51] Mech_Flip0 | Commitment | episode 150/200
+[2025-12-29 14:52:52] Mech_Flip0 | Commitment | episode 175/200
+[2025-12-29 14:53:02] Mech_Flip0 EnvA Commitment | R 63.50±1.93 | ch 0.012 | osc 0.03
+[2025-12-29 14:53:03] Mech_Flip0 | Softmax(tau=0.5) | episode 25/200
+[2025-12-29 14:53:03] Mech_Flip0 | Softmax(tau=0.5) | episode 50/200
+[2025-12-29 14:53:03] Mech_Flip0 | Softmax(tau=0.5) | episode 75/200
+[2025-12-29 14:53:04] Mech_Flip0 | Softmax(tau=0.5) | episode 100/200
+[2025-12-29 14:53:04] Mech_Flip0 | Softmax(tau=0.5) | episode 125/200
+[2025-12-29 14:53:04] Mech_Flip0 | Softmax(tau=0.5) | episode 150/200
+[2025-12-29 14:53:05] Mech_Flip0 | Softmax(tau=0.5) | episode 175/200
+[2025-12-29 14:53:15] Mech_Flip0 EnvA Softmax(tau=0.5) | R 36.15±2.03 | ch 0.453 | osc 13.29
+[2025-12-29 14:53:15] Mech_Flip0 | LCB(k=1.0) | episode 25/200
+[2025-12-29 14:53:16] Mech_Flip0 | LCB(k=1.0) | episode 50/200
+[2025-12-29 14:53:16] Mech_Flip0 | LCB(k=1.0) | episode 75/200
+[2025-12-29 14:53:16] Mech_Flip0 | LCB(k=1.0) | episode 100/200
+[2025-12-29 14:53:17] Mech_Flip0 | LCB(k=1.0) | episode 125/200
+[2025-12-29 14:53:17] Mech_Flip0 | LCB(k=1.0) | episode 150/200
+[2025-12-29 14:53:17] Mech_Flip0 | LCB(k=1.0) | episode 175/200
+[2025-12-29 14:53:27] Mech_Flip0 EnvA LCB(k=1.0) | R 37.01±2.26 | ch 0.351 | osc 10.29
+[2025-12-29 14:53:27] Mech_Flip0 | EMA(ΔQ,a=0.2) | episode 25/200
+[2025-12-29 14:53:27] Mech_Flip0 | EMA(ΔQ,a=0.2) | episode 50/200
+[2025-12-29 14:53:28] Mech_Flip0 | EMA(ΔQ,a=0.2) | episode 75/200
+[2025-12-29 14:53:28] Mech_Flip0 | EMA(ΔQ,a=0.2) | episode 100/200
+[2025-12-29 14:53:28] Mech_Flip0 | EMA(ΔQ,a=0.2) | episode 125/200
+[2025-12-29 14:53:28] Mech_Flip0 | EMA(ΔQ,a=0.2) | episode 150/200
+[2025-12-29 14:53:29] Mech_Flip0 | EMA(ΔQ,a=0.2) | episode 175/200
+[2025-12-29 14:53:38] Mech_Flip0 EnvA EMA(ΔQ,a=0.2) | R 57.21±11.22 | ch 0.072 | osc 3.29
+[2025-12-29 14:53:38] Mech_Flip0 | Dwell(k=4) | episode 25/200
+[2025-12-29 14:53:38] Mech_Flip0 | Dwell(k=4) | episode 50/200
+[2025-12-29 14:53:38] Mech_Flip0 | Dwell(k=4) | episode 75/200
+[2025-12-29 14:53:39] Mech_Flip0 | Dwell(k=4) | episode 100/200
+[2025-12-29 14:53:39] Mech_Flip0 | Dwell(k=4) | episode 125/200
+[2025-12-29 14:53:39] Mech_Flip0 | Dwell(k=4) | episode 150/200
+[2025-12-29 14:53:39] Mech_Flip0 | Dwell(k=4) | episode 175/200
+[2025-12-29 14:53:41] Mech_Flip0 EnvA Dwell(k=4) | R 39.25±9.40 | ch 0.506 | osc 27.75
+[2025-12-29 14:53:41] === Block Mech_MarginBig (EnvA) | rollouts=8 horizon=12 ===
+[2025-12-29 14:53:42] Mech_MarginBig | Argmax | episode 25/200
+[2025-12-29 14:53:42] Mech_MarginBig | Argmax | episode 50/200
+[2025-12-29 14:53:42] Mech_MarginBig | Argmax | episode 75/200
+[2025-12-29 14:53:42] Mech_MarginBig | Argmax | episode 100/200
+[2025-12-29 14:53:43] Mech_MarginBig | Argmax | episode 125/200
+[2025-12-29 14:53:43] Mech_MarginBig | Argmax | episode 150/200
+[2025-12-29 14:53:43] Mech_MarginBig | Argmax | episode 175/200
+[2025-12-29 14:53:53] Mech_MarginBig EnvA Argmax | R 55.55±12.64 | ch 0.131 | osc 2.98
+[2025-12-29 14:53:53] Mech_MarginBig | Commitment | episode 25/200
+[2025-12-29 14:53:54] Mech_MarginBig | Commitment | episode 50/200
+[2025-12-29 14:53:54] Mech_MarginBig | Commitment | episode 75/200
+[2025-12-29 14:53:54] Mech_MarginBig | Commitment | episode 100/200
+[2025-12-29 14:53:55] Mech_MarginBig | Commitment | episode 125/200
+[2025-12-29 14:53:55] Mech_MarginBig | Commitment | episode 150/200
+[2025-12-29 14:53:55] Mech_MarginBig | Commitment | episode 175/200
+[2025-12-29 14:54:05] Mech_MarginBig EnvA Commitment | R 67.53±3.42 | ch 0.027 | osc 0.04
+[2025-12-29 14:54:05] Mech_MarginBig | Softmax(tau=0.5) | episode 25/200
+[2025-12-29 14:54:05] Mech_MarginBig | Softmax(tau=0.5) | episode 50/200
+[2025-12-29 14:54:06] Mech_MarginBig | Softmax(tau=0.5) | episode 75/200
+[2025-12-29 14:54:06] Mech_MarginBig | Softmax(tau=0.5) | episode 100/200
+[2025-12-29 14:54:06] Mech_MarginBig | Softmax(tau=0.5) | episode 125/200
+[2025-12-29 14:54:06] Mech_MarginBig | Softmax(tau=0.5) | episode 150/200
+[2025-12-29 14:54:07] Mech_MarginBig | Softmax(tau=0.5) | episode 175/200
+[2025-12-29 14:54:16] Mech_MarginBig EnvA Softmax(tau=0.5) | R 42.75±3.89 | ch 0.300 | osc 8.42
+[2025-12-29 14:54:17] Mech_MarginBig | LCB(k=1.0) | episode 25/200
+[2025-12-29 14:54:17] Mech_MarginBig | LCB(k=1.0) | episode 50/200
+[2025-12-29 14:54:17] Mech_MarginBig | LCB(k=1.0) | episode 75/200
+[2025-12-29 14:54:17] Mech_MarginBig | LCB(k=1.0) | episode 100/200
+[2025-12-29 14:54:18] Mech_MarginBig | LCB(k=1.0) | episode 125/200
+[2025-12-29 14:54:18] Mech_MarginBig | LCB(k=1.0) | episode 150/200
+[2025-12-29 14:54:18] Mech_MarginBig | LCB(k=1.0) | episode 175/200
+[2025-12-29 14:54:28] Mech_MarginBig EnvA LCB(k=1.0) | R 46.44±7.76 | ch 0.185 | osc 4.68
+[2025-12-29 14:54:28] Mech_MarginBig | EMA(ΔQ,a=0.2) | episode 25/200
+[2025-12-29 14:54:28] Mech_MarginBig | EMA(ΔQ,a=0.2) | episode 50/200
+[2025-12-29 14:54:29] Mech_MarginBig | EMA(ΔQ,a=0.2) | episode 75/200
+[2025-12-29 14:54:29] Mech_MarginBig | EMA(ΔQ,a=0.2) | episode 100/200
+[2025-12-29 14:54:29] Mech_MarginBig | EMA(ΔQ,a=0.2) | episode 125/200
+[2025-12-29 14:54:30] Mech_MarginBig | EMA(ΔQ,a=0.2) | episode 150/200
+[2025-12-29 14:54:30] Mech_MarginBig | EMA(ΔQ,a=0.2) | episode 175/200
+[2025-12-29 14:54:39] Mech_MarginBig EnvA EMA(ΔQ,a=0.2) | R 62.65±12.32 | ch 0.086 | osc 3.23
+[2025-12-29 14:54:40] Mech_MarginBig | Dwell(k=4) | episode 25/200
+[2025-12-29 14:54:40] Mech_MarginBig | Dwell(k=4) | episode 50/200
+[2025-12-29 14:54:40] Mech_MarginBig | Dwell(k=4) | episode 75/200
+[2025-12-29 14:54:40] Mech_MarginBig | Dwell(k=4) | episode 100/200
+[2025-12-29 14:54:40] Mech_MarginBig | Dwell(k=4) | episode 125/200
+[2025-12-29 14:54:40] Mech_MarginBig | Dwell(k=4) | episode 150/200
+[2025-12-29 14:54:40] Mech_MarginBig | Dwell(k=4) | episode 175/200
+[2025-12-29 14:54:42] Mech_MarginBig EnvA Dwell(k=4) | R 42.59±10.72 | ch 0.497 | osc 28.02
+[2025-12-29 14:54:42] === Block ComputeSweep_N=2 (EnvA) | rollouts=2 horizon=12 ===
+[2025-12-29 14:54:43] ComputeSweep_N=2 | Argmax | episode 25/200
+[2025-12-29 14:54:43] ComputeSweep_N=2 | Argmax | episode 50/200
+[2025-12-29 14:54:43] ComputeSweep_N=2 | Argmax | episode 75/200
+[2025-12-29 14:54:43] ComputeSweep_N=2 | Argmax | episode 100/200
+[2025-12-29 14:54:43] ComputeSweep_N=2 | Argmax | episode 125/200
+[2025-12-29 14:54:43] ComputeSweep_N=2 | Argmax | episode 150/200
+[2025-12-29 14:54:43] ComputeSweep_N=2 | Argmax | episode 175/200
+[2025-12-29 14:54:47] ComputeSweep_N=2 EnvA Argmax | R 36.00±1.95 | ch 0.464 | osc 13.61
+[2025-12-29 14:54:47] ComputeSweep_N=2 | Commitment | episode 25/200
+[2025-12-29 14:54:47] ComputeSweep_N=2 | Commitment | episode 50/200
+[2025-12-29 14:54:47] ComputeSweep_N=2 | Commitment | episode 75/200
+[2025-12-29 14:54:47] ComputeSweep_N=2 | Commitment | episode 100/200
+[2025-12-29 14:54:48] ComputeSweep_N=2 | Commitment | episode 125/200
+[2025-12-29 14:54:48] ComputeSweep_N=2 | Commitment | episode 150/200
+[2025-12-29 14:54:48] ComputeSweep_N=2 | Commitment | episode 175/200
+[2025-12-29 14:54:52] ComputeSweep_N=2 EnvA Commitment | R 58.58±8.83 | ch 0.059 | osc 0.61
+[2025-12-29 14:54:52] ComputeSweep_N=2 | Softmax(tau=0.5) | episode 25/200
+[2025-12-29 14:54:52] ComputeSweep_N=2 | Softmax(tau=0.5) | episode 50/200
+[2025-12-29 14:54:52] ComputeSweep_N=2 | Softmax(tau=0.5) | episode 75/200
+[2025-12-29 14:54:52] ComputeSweep_N=2 | Softmax(tau=0.5) | episode 100/200
+[2025-12-29 14:54:52] ComputeSweep_N=2 | Softmax(tau=0.5) | episode 125/200
+[2025-12-29 14:54:52] ComputeSweep_N=2 | Softmax(tau=0.5) | episode 150/200
+[2025-12-29 14:54:52] ComputeSweep_N=2 | Softmax(tau=0.5) | episode 175/200
+[2025-12-29 14:54:56] ComputeSweep_N=2 EnvA Softmax(tau=0.5) | R 35.75±1.93 | ch 0.479 | osc 14.17
+[2025-12-29 14:54:56] ComputeSweep_N=2 | LCB(k=1.0) | episode 25/200
+[2025-12-29 14:54:56] ComputeSweep_N=2 | LCB(k=1.0) | episode 50/200
+[2025-12-29 14:54:56] ComputeSweep_N=2 | LCB(k=1.0) | episode 75/200
+[2025-12-29 14:54:57] ComputeSweep_N=2 | LCB(k=1.0) | episode 100/200
+[2025-12-29 14:54:57] ComputeSweep_N=2 | LCB(k=1.0) | episode 125/200
+[2025-12-29 14:54:57] ComputeSweep_N=2 | LCB(k=1.0) | episode 150/200
+[2025-12-29 14:54:57] ComputeSweep_N=2 | LCB(k=1.0) | episode 175/200
+[2025-12-29 14:55:01] ComputeSweep_N=2 EnvA LCB(k=1.0) | R 35.88±1.94 | ch 0.470 | osc 13.74
+[2025-12-29 14:55:01] ComputeSweep_N=2 | EMA(ΔQ,a=0.2) | episode 25/200
+[2025-12-29 14:55:01] ComputeSweep_N=2 | EMA(ΔQ,a=0.2) | episode 50/200
+[2025-12-29 14:55:01] ComputeSweep_N=2 | EMA(ΔQ,a=0.2) | episode 75/200
+[2025-12-29 14:55:01] ComputeSweep_N=2 | EMA(ΔQ,a=0.2) | episode 100/200
+[2025-12-29 14:55:01] ComputeSweep_N=2 | EMA(ΔQ,a=0.2) | episode 125/200
+[2025-12-29 14:55:01] ComputeSweep_N=2 | EMA(ΔQ,a=0.2) | episode 150/200
+[2025-12-29 14:55:01] ComputeSweep_N=2 | EMA(ΔQ,a=0.2) | episode 175/200
+[2025-12-29 14:55:05] ComputeSweep_N=2 EnvA EMA(ΔQ,a=0.2) | R 39.17±8.38 | ch 0.379 | osc 17.80
+[2025-12-29 14:55:05] ComputeSweep_N=2 | Dwell(k=4) | episode 25/200
+[2025-12-29 14:55:05] ComputeSweep_N=2 | Dwell(k=4) | episode 50/200
+[2025-12-29 14:55:05] ComputeSweep_N=2 | Dwell(k=4) | episode 75/200
+[2025-12-29 14:55:05] ComputeSweep_N=2 | Dwell(k=4) | episode 100/200
+[2025-12-29 14:55:05] ComputeSweep_N=2 | Dwell(k=4) | episode 125/200
+[2025-12-29 14:55:05] ComputeSweep_N=2 | Dwell(k=4) | episode 150/200
+[2025-12-29 14:55:05] ComputeSweep_N=2 | Dwell(k=4) | episode 175/200
+[2025-12-29 14:55:06] ComputeSweep_N=2 EnvA Dwell(k=4) | R 35.60±2.78 | ch 0.506 | osc 26.55
+[2025-12-29 14:55:06] === Block ComputeSweep_N=4 (EnvA) | rollouts=4 horizon=12 ===
+[2025-12-29 14:55:07] ComputeSweep_N=4 | Argmax | episode 25/200
+[2025-12-29 14:55:07] ComputeSweep_N=4 | Argmax | episode 50/200
+[2025-12-29 14:55:07] ComputeSweep_N=4 | Argmax | episode 75/200
+[2025-12-29 14:55:07] ComputeSweep_N=4 | Argmax | episode 100/200
+[2025-12-29 14:55:07] ComputeSweep_N=4 | Argmax | episode 125/200
+[2025-12-29 14:55:07] ComputeSweep_N=4 | Argmax | episode 150/200
+[2025-12-29 14:55:08] ComputeSweep_N=4 | Argmax | episode 175/200
+[2025-12-29 14:55:13] ComputeSweep_N=4 EnvA Argmax | R 36.39±1.94 | ch 0.419 | osc 12.22
+[2025-12-29 14:55:13] ComputeSweep_N=4 | Commitment | episode 25/200
+[2025-12-29 14:55:14] ComputeSweep_N=4 | Commitment | episode 50/200
+[2025-12-29 14:55:14] ComputeSweep_N=4 | Commitment | episode 75/200
+[2025-12-29 14:55:14] ComputeSweep_N=4 | Commitment | episode 100/200
+[2025-12-29 14:55:14] ComputeSweep_N=4 | Commitment | episode 125/200
+[2025-12-29 14:55:14] ComputeSweep_N=4 | Commitment | episode 150/200
+[2025-12-29 14:55:15] ComputeSweep_N=4 | Commitment | episode 175/200
+[2025-12-29 14:55:20] ComputeSweep_N=4 EnvA Commitment | R 61.43±4.13 | ch 0.037 | osc 0.15
+[2025-12-29 14:55:20] ComputeSweep_N=4 | Softmax(tau=0.5) | episode 25/200
+[2025-12-29 14:55:21] ComputeSweep_N=4 | Softmax(tau=0.5) | episode 50/200
+[2025-12-29 14:55:21] ComputeSweep_N=4 | Softmax(tau=0.5) | episode 75/200
+[2025-12-29 14:55:21] ComputeSweep_N=4 | Softmax(tau=0.5) | episode 100/200
+[2025-12-29 14:55:21] ComputeSweep_N=4 | Softmax(tau=0.5) | episode 125/200
+[2025-12-29 14:55:21] ComputeSweep_N=4 | Softmax(tau=0.5) | episode 150/200
+[2025-12-29 14:55:21] ComputeSweep_N=4 | Softmax(tau=0.5) | episode 175/200
+[2025-12-29 14:55:27] ComputeSweep_N=4 EnvA Softmax(tau=0.5) | R 35.88±1.93 | ch 0.476 | osc 13.98
+[2025-12-29 14:55:27] ComputeSweep_N=4 | LCB(k=1.0) | episode 25/200
+[2025-12-29 14:55:28] ComputeSweep_N=4 | LCB(k=1.0) | episode 50/200
+[2025-12-29 14:55:28] ComputeSweep_N=4 | LCB(k=1.0) | episode 75/200
+[2025-12-29 14:55:28] ComputeSweep_N=4 | LCB(k=1.0) | episode 100/200
+[2025-12-29 14:55:28] ComputeSweep_N=4 | LCB(k=1.0) | episode 125/200
+[2025-12-29 14:55:28] ComputeSweep_N=4 | LCB(k=1.0) | episode 150/200
+[2025-12-29 14:55:28] ComputeSweep_N=4 | LCB(k=1.0) | episode 175/200
+[2025-12-29 14:55:34] ComputeSweep_N=4 EnvA LCB(k=1.0) | R 36.18±1.93 | ch 0.442 | osc 13.07
+[2025-12-29 14:55:34] ComputeSweep_N=4 | EMA(ΔQ,a=0.2) | episode 25/200
+[2025-12-29 14:55:34] ComputeSweep_N=4 | EMA(ΔQ,a=0.2) | episode 50/200
+[2025-12-29 14:55:35] ComputeSweep_N=4 | EMA(ΔQ,a=0.2) | episode 75/200
+[2025-12-29 14:55:35] ComputeSweep_N=4 | EMA(ΔQ,a=0.2) | episode 100/200
+[2025-12-29 14:55:35] ComputeSweep_N=4 | EMA(ΔQ,a=0.2) | episode 125/200
+[2025-12-29 14:55:35] ComputeSweep_N=4 | EMA(ΔQ,a=0.2) | episode 150/200
+[2025-12-29 14:55:35] ComputeSweep_N=4 | EMA(ΔQ,a=0.2) | episode 175/200
+[2025-12-29 14:55:41] ComputeSweep_N=4 EnvA EMA(ΔQ,a=0.2) | R 42.54±11.04 | ch 0.282 | osc 12.99
+[2025-12-29 14:55:41] ComputeSweep_N=4 | Dwell(k=4) | episode 25/200
+[2025-12-29 14:55:41] ComputeSweep_N=4 | Dwell(k=4) | episode 50/200
+[2025-12-29 14:55:41] ComputeSweep_N=4 | Dwell(k=4) | episode 75/200
+[2025-12-29 14:55:41] ComputeSweep_N=4 | Dwell(k=4) | episode 100/200
+[2025-12-29 14:55:41] ComputeSweep_N=4 | Dwell(k=4) | episode 125/200
+[2025-12-29 14:55:41] ComputeSweep_N=4 | Dwell(k=4) | episode 150/200
+[2025-12-29 14:55:41] ComputeSweep_N=4 | Dwell(k=4) | episode 175/200
+[2025-12-29 14:55:43] ComputeSweep_N=4 EnvA Dwell(k=4) | R 35.66±2.82 | ch 0.505 | osc 26.75
+[2025-12-29 14:55:43] === Block ComputeSweep_N=8 (EnvA) | rollouts=8 horizon=12 ===
+[2025-12-29 14:55:43] ComputeSweep_N=8 | Argmax | episode 25/200
+[2025-12-29 14:55:43] ComputeSweep_N=8 | Argmax | episode 50/200
+[2025-12-29 14:55:44] ComputeSweep_N=8 | Argmax | episode 75/200
+[2025-12-29 14:55:44] ComputeSweep_N=8 | Argmax | episode 100/200
+[2025-12-29 14:55:44] ComputeSweep_N=8 | Argmax | episode 125/200
+[2025-12-29 14:55:45] ComputeSweep_N=8 | Argmax | episode 150/200
+[2025-12-29 14:55:45] ComputeSweep_N=8 | Argmax | episode 175/200
+[2025-12-29 14:55:54] ComputeSweep_N=8 EnvA Argmax | R 36.88±2.11 | ch 0.356 | osc 10.11
+[2025-12-29 14:55:55] ComputeSweep_N=8 | Commitment | episode 25/200
+[2025-12-29 14:55:55] ComputeSweep_N=8 | Commitment | episode 50/200
+[2025-12-29 14:55:55] ComputeSweep_N=8 | Commitment | episode 75/200
+[2025-12-29 14:55:56] ComputeSweep_N=8 | Commitment | episode 100/200
+[2025-12-29 14:55:56] ComputeSweep_N=8 | Commitment | episode 125/200
+[2025-12-29 14:55:56] ComputeSweep_N=8 | Commitment | episode 150/200
+[2025-12-29 14:55:56] ComputeSweep_N=8 | Commitment | episode 175/200
+[2025-12-29 14:56:06] ComputeSweep_N=8 EnvA Commitment | R 61.93±2.80 | ch 0.030 | osc 0.07
+[2025-12-29 14:56:06] ComputeSweep_N=8 | Softmax(tau=0.5) | episode 25/200
+[2025-12-29 14:56:07] ComputeSweep_N=8 | Softmax(tau=0.5) | episode 50/200
+[2025-12-29 14:56:07] ComputeSweep_N=8 | Softmax(tau=0.5) | episode 75/200
+[2025-12-29 14:56:07] ComputeSweep_N=8 | Softmax(tau=0.5) | episode 100/200
+[2025-12-29 14:56:07] ComputeSweep_N=8 | Softmax(tau=0.5) | episode 125/200
+[2025-12-29 14:56:08] ComputeSweep_N=8 | Softmax(tau=0.5) | episode 150/200
+[2025-12-29 14:56:08] ComputeSweep_N=8 | Softmax(tau=0.5) | episode 175/200
+[2025-12-29 14:56:18] ComputeSweep_N=8 EnvA Softmax(tau=0.5) | R 35.91±2.03 | ch 0.468 | osc 13.71
+[2025-12-29 14:56:18] ComputeSweep_N=8 | LCB(k=1.0) | episode 25/200
+[2025-12-29 14:56:18] ComputeSweep_N=8 | LCB(k=1.0) | episode 50/200
+[2025-12-29 14:56:19] ComputeSweep_N=8 | LCB(k=1.0) | episode 75/200
+[2025-12-29 14:56:19] ComputeSweep_N=8 | LCB(k=1.0) | episode 100/200
+[2025-12-29 14:56:19] ComputeSweep_N=8 | LCB(k=1.0) | episode 125/200
+[2025-12-29 14:56:19] ComputeSweep_N=8 | LCB(k=1.0) | episode 150/200
+[2025-12-29 14:56:20] ComputeSweep_N=8 | LCB(k=1.0) | episode 175/200
+[2025-12-29 14:56:29] ComputeSweep_N=8 EnvA LCB(k=1.0) | R 36.58±1.95 | ch 0.392 | osc 11.32
+[2025-12-29 14:56:30] ComputeSweep_N=8 | EMA(ΔQ,a=0.2) | episode 25/200
+[2025-12-29 14:56:30] ComputeSweep_N=8 | EMA(ΔQ,a=0.2) | episode 50/200
+[2025-12-29 14:56:30] ComputeSweep_N=8 | EMA(ΔQ,a=0.2) | episode 75/200
+[2025-12-29 14:56:30] ComputeSweep_N=8 | EMA(ΔQ,a=0.2) | episode 100/200
+[2025-12-29 14:56:31] ComputeSweep_N=8 | EMA(ΔQ,a=0.2) | episode 125/200
+[2025-12-29 14:56:31] ComputeSweep_N=8 | EMA(ΔQ,a=0.2) | episode 150/200
+[2025-12-29 14:56:31] ComputeSweep_N=8 | EMA(ΔQ,a=0.2) | episode 175/200
+[2025-12-29 14:56:41] ComputeSweep_N=8 EnvA EMA(ΔQ,a=0.2) | R 48.21±12.87 | ch 0.182 | osc 8.19
+[2025-12-29 14:56:41] ComputeSweep_N=8 | Dwell(k=4) | episode 25/200
+[2025-12-29 14:56:41] ComputeSweep_N=8 | Dwell(k=4) | episode 50/200
+[2025-12-29 14:56:41] ComputeSweep_N=8 | Dwell(k=4) | episode 75/200
+[2025-12-29 14:56:41] ComputeSweep_N=8 | Dwell(k=4) | episode 100/200
+[2025-12-29 14:56:41] ComputeSweep_N=8 | Dwell(k=4) | episode 125/200
+[2025-12-29 14:56:41] ComputeSweep_N=8 | Dwell(k=4) | episode 150/200
+[2025-12-29 14:56:41] ComputeSweep_N=8 | Dwell(k=4) | episode 175/200
+[2025-12-29 14:56:44] ComputeSweep_N=8 EnvA Dwell(k=4) | R 36.47±4.51 | ch 0.503 | osc 27.03
+[2025-12-29 14:56:44] === Block ComputeSweep_N=16 (EnvA) | rollouts=16 horizon=12 ===
+[2025-12-29 14:56:45] ComputeSweep_N=16 | Argmax | episode 25/200
+[2025-12-29 14:56:45] ComputeSweep_N=16 | Argmax | episode 50/200
+[2025-12-29 14:56:46] ComputeSweep_N=16 | Argmax | episode 75/200
+[2025-12-29 14:56:46] ComputeSweep_N=16 | Argmax | episode 100/200
+[2025-12-29 14:56:47] ComputeSweep_N=16 | Argmax | episode 125/200
+[2025-12-29 14:56:47] ComputeSweep_N=16 | Argmax | episode 150/200
+[2025-12-29 14:56:48] ComputeSweep_N=16 | Argmax | episode 175/200
+[2025-12-29 14:57:05] ComputeSweep_N=16 EnvA Argmax | R 38.64±5.69 | ch 0.255 | osc 7.03
+[2025-12-29 14:57:06] ComputeSweep_N=16 | Commitment | episode 25/200
+[2025-12-29 14:57:06] ComputeSweep_N=16 | Commitment | episode 50/200
+[2025-12-29 14:57:07] ComputeSweep_N=16 | Commitment | episode 75/200
+[2025-12-29 14:57:07] ComputeSweep_N=16 | Commitment | episode 100/200
+[2025-12-29 14:57:08] ComputeSweep_N=16 | Commitment | episode 125/200
+[2025-12-29 14:57:08] ComputeSweep_N=16 | Commitment | episode 150/200
+[2025-12-29 14:57:09] ComputeSweep_N=16 | Commitment | episode 175/200
+[2025-12-29 14:57:26] ComputeSweep_N=16 EnvA Commitment | R 62.27±2.26 | ch 0.027 | osc 0.05
+[2025-12-29 14:57:27] ComputeSweep_N=16 | Softmax(tau=0.5) | episode 25/200
+[2025-12-29 14:57:27] ComputeSweep_N=16 | Softmax(tau=0.5) | episode 50/200
+[2025-12-29 14:57:28] ComputeSweep_N=16 | Softmax(tau=0.5) | episode 75/200
+[2025-12-29 14:57:28] ComputeSweep_N=16 | Softmax(tau=0.5) | episode 100/200
+[2025-12-29 14:57:29] ComputeSweep_N=16 | Softmax(tau=0.5) | episode 125/200
+[2025-12-29 14:57:29] ComputeSweep_N=16 | Softmax(tau=0.5) | episode 150/200
+[2025-12-29 14:57:30] ComputeSweep_N=16 | Softmax(tau=0.5) | episode 175/200
+[2025-12-29 14:57:47] ComputeSweep_N=16 EnvA Softmax(tau=0.5) | R 35.86±1.95 | ch 0.461 | osc 13.36
+[2025-12-29 14:57:48] ComputeSweep_N=16 | LCB(k=1.0) | episode 25/200
+[2025-12-29 14:57:48] ComputeSweep_N=16 | LCB(k=1.0) | episode 50/200
+[2025-12-29 14:57:49] ComputeSweep_N=16 | LCB(k=1.0) | episode 75/200
+[2025-12-29 14:57:49] ComputeSweep_N=16 | LCB(k=1.0) | episode 100/200
+[2025-12-29 14:57:50] ComputeSweep_N=16 | LCB(k=1.0) | episode 125/200
+[2025-12-29 14:57:50] ComputeSweep_N=16 | LCB(k=1.0) | episode 150/200
+[2025-12-29 14:57:51] ComputeSweep_N=16 | LCB(k=1.0) | episode 175/200
+[2025-12-29 14:58:08] ComputeSweep_N=16 EnvA LCB(k=1.0) | R 37.31±2.65 | ch 0.316 | osc 8.87
+[2025-12-29 14:58:09] ComputeSweep_N=16 | EMA(ΔQ,a=0.2) | episode 25/200
+[2025-12-29 14:58:09] ComputeSweep_N=16 | EMA(ΔQ,a=0.2) | episode 50/200
+[2025-12-29 14:58:10] ComputeSweep_N=16 | EMA(ΔQ,a=0.2) | episode 75/200
+[2025-12-29 14:58:10] ComputeSweep_N=16 | EMA(ΔQ,a=0.2) | episode 100/200
+[2025-12-29 14:58:11] ComputeSweep_N=16 | EMA(ΔQ,a=0.2) | episode 125/200
+[2025-12-29 14:58:11] ComputeSweep_N=16 | EMA(ΔQ,a=0.2) | episode 150/200
+[2025-12-29 14:58:12] ComputeSweep_N=16 | EMA(ΔQ,a=0.2) | episode 175/200
+[2025-12-29 14:58:29] ComputeSweep_N=16 EnvA EMA(ΔQ,a=0.2) | R 54.10±12.38 | ch 0.114 | osc 4.78
+[2025-12-29 14:58:29] ComputeSweep_N=16 | Dwell(k=4) | episode 25/200
+[2025-12-29 14:58:29] ComputeSweep_N=16 | Dwell(k=4) | episode 50/200
+[2025-12-29 14:58:29] ComputeSweep_N=16 | Dwell(k=4) | episode 75/200
+[2025-12-29 14:58:30] ComputeSweep_N=16 | Dwell(k=4) | episode 100/200
+[2025-12-29 14:58:30] ComputeSweep_N=16 | Dwell(k=4) | episode 125/200
+[2025-12-29 14:58:30] ComputeSweep_N=16 | Dwell(k=4) | episode 150/200
+[2025-12-29 14:58:30] ComputeSweep_N=16 | Dwell(k=4) | episode 175/200
+[2025-12-29 14:58:35] ComputeSweep_N=16 EnvA Dwell(k=4) | R 37.73±6.99 | ch 0.492 | osc 26.96
+[2025-12-29 14:58:35] === Block ComputeSweep_N=32 (EnvA) | rollouts=32 horizon=12 ===
+[2025-12-29 14:58:36] ComputeSweep_N=32 | Argmax | episode 25/200
+[2025-12-29 14:58:37] ComputeSweep_N=32 | Argmax | episode 50/200
+[2025-12-29 14:58:38] ComputeSweep_N=32 | Argmax | episode 75/200
+[2025-12-29 14:58:38] ComputeSweep_N=32 | Argmax | episode 100/200
+[2025-12-29 14:58:40] ComputeSweep_N=32 | Argmax | episode 125/200
+[2025-12-29 14:58:40] ComputeSweep_N=32 | Argmax | episode 150/200
+[2025-12-29 14:58:42] ComputeSweep_N=32 | Argmax | episode 175/200
+[2025-12-29 14:59:14] ComputeSweep_N=32 EnvA Argmax | R 47.86±12.47 | ch 0.139 | osc 3.26
+[2025-12-29 14:59:15] ComputeSweep_N=32 | Commitment | episode 25/200
+[2025-12-29 14:59:16] ComputeSweep_N=32 | Commitment | episode 50/200
+[2025-12-29 14:59:17] ComputeSweep_N=32 | Commitment | episode 75/200
+[2025-12-29 14:59:18] ComputeSweep_N=32 | Commitment | episode 100/200
+[2025-12-29 14:59:19] ComputeSweep_N=32 | Commitment | episode 125/200
+[2025-12-29 14:59:20] ComputeSweep_N=32 | Commitment | episode 150/200
+[2025-12-29 14:59:21] ComputeSweep_N=32 | Commitment | episode 175/200
+[2025-12-29 14:59:54] ComputeSweep_N=32 EnvA Commitment | R 62.28±2.17 | ch 0.026 | osc 0.03
+[2025-12-29 14:59:55] ComputeSweep_N=32 | Softmax(tau=0.5) | episode 25/200
+[2025-12-29 14:59:56] ComputeSweep_N=32 | Softmax(tau=0.5) | episode 50/200
+[2025-12-29 14:59:57] ComputeSweep_N=32 | Softmax(tau=0.5) | episode 75/200
+[2025-12-29 14:59:58] ComputeSweep_N=32 | Softmax(tau=0.5) | episode 100/200
+[2025-12-29 14:59:59] ComputeSweep_N=32 | Softmax(tau=0.5) | episode 125/200
+[2025-12-29 15:00:00] ComputeSweep_N=32 | Softmax(tau=0.5) | episode 150/200
+[2025-12-29 15:00:01] ComputeSweep_N=32 | Softmax(tau=0.5) | episode 175/200
+[2025-12-29 15:00:34] ComputeSweep_N=32 EnvA Softmax(tau=0.5) | R 35.94±1.99 | ch 0.464 | osc 13.69
+[2025-12-29 15:00:35] ComputeSweep_N=32 | LCB(k=1.0) | episode 25/200
+[2025-12-29 15:00:36] ComputeSweep_N=32 | LCB(k=1.0) | episode 50/200
+[2025-12-29 15:00:37] ComputeSweep_N=32 | LCB(k=1.0) | episode 75/200
+[2025-12-29 15:00:38] ComputeSweep_N=32 | LCB(k=1.0) | episode 100/200
+[2025-12-29 15:00:39] ComputeSweep_N=32 | LCB(k=1.0) | episode 125/200
+[2025-12-29 15:00:40] ComputeSweep_N=32 | LCB(k=1.0) | episode 150/200
+[2025-12-29 15:00:41] ComputeSweep_N=32 | LCB(k=1.0) | episode 175/200
+[2025-12-29 15:01:13] ComputeSweep_N=32 EnvA LCB(k=1.0) | R 39.68±7.10 | ch 0.208 | osc 5.49
+[2025-12-29 15:01:14] ComputeSweep_N=32 | EMA(ΔQ,a=0.2) | episode 25/200
+[2025-12-29 15:01:15] ComputeSweep_N=32 | EMA(ΔQ,a=0.2) | episode 50/200
+[2025-12-29 15:01:16] ComputeSweep_N=32 | EMA(ΔQ,a=0.2) | episode 75/200
+[2025-12-29 15:01:17] ComputeSweep_N=32 | EMA(ΔQ,a=0.2) | episode 100/200
+[2025-12-29 15:01:18] ComputeSweep_N=32 | EMA(ΔQ,a=0.2) | episode 125/200
+[2025-12-29 15:01:19] ComputeSweep_N=32 | EMA(ΔQ,a=0.2) | episode 150/200
+[2025-12-29 15:01:20] ComputeSweep_N=32 | EMA(ΔQ,a=0.2) | episode 175/200
+[2025-12-29 15:01:53] ComputeSweep_N=32 EnvA EMA(ΔQ,a=0.2) | R 55.93±11.67 | ch 0.087 | osc 3.34
+[2025-12-29 15:01:53] ComputeSweep_N=32 | Dwell(k=4) | episode 25/200
+[2025-12-29 15:01:53] ComputeSweep_N=32 | Dwell(k=4) | episode 50/200
+[2025-12-29 15:01:54] ComputeSweep_N=32 | Dwell(k=4) | episode 75/200
+[2025-12-29 15:01:54] ComputeSweep_N=32 | Dwell(k=4) | episode 100/200
+[2025-12-29 15:01:54] ComputeSweep_N=32 | Dwell(k=4) | episode 125/200
+[2025-12-29 15:01:54] ComputeSweep_N=32 | Dwell(k=4) | episode 150/200
+[2025-12-29 15:01:55] ComputeSweep_N=32 | Dwell(k=4) | episode 175/200
+[2025-12-29 15:02:03] ComputeSweep_N=32 EnvA Dwell(k=4) | R 39.07±8.74 | ch 0.518 | osc 29.14
+[2025-12-29 15:02:03] === Block ComputeSweep_N=64 (EnvA) | rollouts=64 horizon=12 ===
+[2025-12-29 15:02:05] ComputeSweep_N=64 | Argmax | episode 25/200
+[2025-12-29 15:02:07] ComputeSweep_N=64 | Argmax | episode 50/200
+[2025-12-29 15:02:09] ComputeSweep_N=64 | Argmax | episode 75/200
+[2025-12-29 15:02:11] ComputeSweep_N=64 | Argmax | episode 100/200
+[2025-12-29 15:02:13] ComputeSweep_N=64 | Argmax | episode 125/200
+[2025-12-29 15:02:15] ComputeSweep_N=64 | Argmax | episode 150/200
+[2025-12-29 15:02:17] ComputeSweep_N=64 | Argmax | episode 175/200
+[2025-12-29 15:03:20] ComputeSweep_N=64 EnvA Argmax | R 60.93±7.48 | ch 0.065 | osc 0.93
+[2025-12-29 15:03:22] ComputeSweep_N=64 | Commitment | episode 25/200
+[2025-12-29 15:03:23] ComputeSweep_N=64 | Commitment | episode 50/200
+[2025-12-29 15:03:25] ComputeSweep_N=64 | Commitment | episode 75/200
+[2025-12-29 15:03:27] ComputeSweep_N=64 | Commitment | episode 100/200
+[2025-12-29 15:03:29] ComputeSweep_N=64 | Commitment | episode 125/200
+[2025-12-29 15:03:31] ComputeSweep_N=64 | Commitment | episode 150/200
+[2025-12-29 15:03:33] ComputeSweep_N=64 | Commitment | episode 175/200
+[2025-12-29 15:04:37] ComputeSweep_N=64 EnvA Commitment | R 62.27±2.16 | ch 0.025 | osc 0.03
+[2025-12-29 15:04:39] ComputeSweep_N=64 | Softmax(tau=0.5) | episode 25/200
+[2025-12-29 15:04:40] ComputeSweep_N=64 | Softmax(tau=0.5) | episode 50/200
+[2025-12-29 15:04:42] ComputeSweep_N=64 | Softmax(tau=0.5) | episode 75/200
+[2025-12-29 15:04:44] ComputeSweep_N=64 | Softmax(tau=0.5) | episode 100/200
+[2025-12-29 15:04:46] ComputeSweep_N=64 | Softmax(tau=0.5) | episode 125/200
+[2025-12-29 15:04:48] ComputeSweep_N=64 | Softmax(tau=0.5) | episode 150/200
+[2025-12-29 15:04:50] ComputeSweep_N=64 | Softmax(tau=0.5) | episode 175/200
+[2025-12-29 15:05:54] ComputeSweep_N=64 EnvA Softmax(tau=0.5) | R 35.93±2.00 | ch 0.457 | osc 13.42
+[2025-12-29 15:05:56] ComputeSweep_N=64 | LCB(k=1.0) | episode 25/200
+[2025-12-29 15:05:58] ComputeSweep_N=64 | LCB(k=1.0) | episode 50/200
+[2025-12-29 15:06:00] ComputeSweep_N=64 | LCB(k=1.0) | episode 75/200
+[2025-12-29 15:06:01] ComputeSweep_N=64 | LCB(k=1.0) | episode 100/200
+[2025-12-29 15:06:03] ComputeSweep_N=64 | LCB(k=1.0) | episode 125/200
+[2025-12-29 15:06:05] ComputeSweep_N=64 | LCB(k=1.0) | episode 150/200
+[2025-12-29 15:06:07] ComputeSweep_N=64 | LCB(k=1.0) | episode 175/200
+[2025-12-29 15:07:10] ComputeSweep_N=64 EnvA LCB(k=1.0) | R 50.86±12.77 | ch 0.109 | osc 2.30
+[2025-12-29 15:07:12] ComputeSweep_N=64 | EMA(ΔQ,a=0.2) | episode 25/200
+[2025-12-29 15:07:14] ComputeSweep_N=64 | EMA(ΔQ,a=0.2) | episode 50/200
+[2025-12-29 15:07:16] ComputeSweep_N=64 | EMA(ΔQ,a=0.2) | episode 75/200
+[2025-12-29 15:07:18] ComputeSweep_N=64 | EMA(ΔQ,a=0.2) | episode 100/200
+[2025-12-29 15:07:20] ComputeSweep_N=64 | EMA(ΔQ,a=0.2) | episode 125/200
+[2025-12-29 15:07:22] ComputeSweep_N=64 | EMA(ΔQ,a=0.2) | episode 150/200
+[2025-12-29 15:07:24] ComputeSweep_N=64 | EMA(ΔQ,a=0.2) | episode 175/200
+[2025-12-29 15:08:27] ComputeSweep_N=64 EnvA EMA(ΔQ,a=0.2) | R 58.63±9.75 | ch 0.065 | osc 2.09
+[2025-12-29 15:08:28] ComputeSweep_N=64 | Dwell(k=4) | episode 25/200
+[2025-12-29 15:08:28] ComputeSweep_N=64 | Dwell(k=4) | episode 50/200
+[2025-12-29 15:08:29] ComputeSweep_N=64 | Dwell(k=4) | episode 75/200
+[2025-12-29 15:08:29] ComputeSweep_N=64 | Dwell(k=4) | episode 100/200
+[2025-12-29 15:08:30] ComputeSweep_N=64 | Dwell(k=4) | episode 125/200
+[2025-12-29 15:08:30] ComputeSweep_N=64 | Dwell(k=4) | episode 150/200
+[2025-12-29 15:08:31] ComputeSweep_N=64 | Dwell(k=4) | episode 175/200
+[2025-12-29 15:08:51] ComputeSweep_N=64 EnvA Dwell(k=4) | R 41.24±10.70 | ch 0.477 | osc 27.21
+[2025-12-29 15:08:51] === Block ComputeSweep_N=128 (EnvA) | rollouts=128 horizon=12 ===
+[2025-12-29 15:08:55] ComputeSweep_N=128 | Argmax | episode 25/200
+[2025-12-29 15:08:59] ComputeSweep_N=128 | Argmax | episode 50/200
+[2025-12-29 15:09:03] ComputeSweep_N=128 | Argmax | episode 75/200
+[2025-12-29 15:09:07] ComputeSweep_N=128 | Argmax | episode 100/200
+[2025-12-29 15:09:10] ComputeSweep_N=128 | Argmax | episode 125/200
+[2025-12-29 15:09:14] ComputeSweep_N=128 | Argmax | episode 150/200
+[2025-12-29 15:09:18] ComputeSweep_N=128 | Argmax | episode 175/200
+[2025-12-29 15:11:22] ComputeSweep_N=128 EnvA Argmax | R 63.32±2.31 | ch 0.041 | osc 0.13
+[2025-12-29 15:11:26] ComputeSweep_N=128 | Commitment | episode 25/200
+[2025-12-29 15:11:30] ComputeSweep_N=128 | Commitment | episode 50/200
+[2025-12-29 15:11:33] ComputeSweep_N=128 | Commitment | episode 75/200
+[2025-12-29 15:11:37] ComputeSweep_N=128 | Commitment | episode 100/200
+[2025-12-29 15:11:41] ComputeSweep_N=128 | Commitment | episode 125/200
+[2025-12-29 15:11:45] ComputeSweep_N=128 | Commitment | episode 150/200
+[2025-12-29 15:11:49] ComputeSweep_N=128 | Commitment | episode 175/200
+[2025-12-29 15:13:55] ComputeSweep_N=128 EnvA Commitment | R 62.37±2.14 | ch 0.025 | osc 0.03
+[2025-12-29 15:13:59] ComputeSweep_N=128 | Softmax(tau=0.5) | episode 25/200
+[2025-12-29 15:14:03] ComputeSweep_N=128 | Softmax(tau=0.5) | episode 50/200
+[2025-12-29 15:14:07] ComputeSweep_N=128 | Softmax(tau=0.5) | episode 75/200
+[2025-12-29 15:14:11] ComputeSweep_N=128 | Softmax(tau=0.5) | episode 100/200
+[2025-12-29 15:14:15] ComputeSweep_N=128 | Softmax(tau=0.5) | episode 125/200
+[2025-12-29 15:14:19] ComputeSweep_N=128 | Softmax(tau=0.5) | episode 150/200
+[2025-12-29 15:14:22] ComputeSweep_N=128 | Softmax(tau=0.5) | episode 175/200
+[2025-12-29 15:16:31] ComputeSweep_N=128 EnvA Softmax(tau=0.5) | R 36.00±2.00 | ch 0.459 | osc 13.48
+[2025-12-29 15:16:35] ComputeSweep_N=128 | LCB(k=1.0) | episode 25/200
+[2025-12-29 15:16:38] ComputeSweep_N=128 | LCB(k=1.0) | episode 50/200
+[2025-12-29 15:16:42] ComputeSweep_N=128 | LCB(k=1.0) | episode 75/200
+[2025-12-29 15:16:46] ComputeSweep_N=128 | LCB(k=1.0) | episode 100/200
+[2025-12-29 15:16:50] ComputeSweep_N=128 | LCB(k=1.0) | episode 125/200
+[2025-12-29 15:16:54] ComputeSweep_N=128 | LCB(k=1.0) | episode 150/200
+[2025-12-29 15:16:58] ComputeSweep_N=128 | LCB(k=1.0) | episode 175/200
+[2025-12-29 15:19:03] ComputeSweep_N=128 EnvA LCB(k=1.0) | R 61.46±6.93 | ch 0.053 | osc 0.50
+[2025-12-29 15:19:07] ComputeSweep_N=128 | EMA(ΔQ,a=0.2) | episode 25/200
+[2025-12-29 15:19:11] ComputeSweep_N=128 | EMA(ΔQ,a=0.2) | episode 50/200
+[2025-12-29 15:19:14] ComputeSweep_N=128 | EMA(ΔQ,a=0.2) | episode 75/200
+[2025-12-29 15:19:18] ComputeSweep_N=128 | EMA(ΔQ,a=0.2) | episode 100/200
+[2025-12-29 15:19:22] ComputeSweep_N=128 | EMA(ΔQ,a=0.2) | episode 125/200
+[2025-12-29 15:19:26] ComputeSweep_N=128 | EMA(ΔQ,a=0.2) | episode 150/200
+[2025-12-29 15:19:29] ComputeSweep_N=128 | EMA(ΔQ,a=0.2) | episode 175/200
+[2025-12-29 15:21:34] ComputeSweep_N=128 EnvA EMA(ΔQ,a=0.2) | R 60.11±8.37 | ch 0.053 | osc 1.39
+[2025-12-29 15:21:35] ComputeSweep_N=128 | Dwell(k=4) | episode 25/200
+[2025-12-29 15:21:36] ComputeSweep_N=128 | Dwell(k=4) | episode 50/200
+[2025-12-29 15:21:37] ComputeSweep_N=128 | Dwell(k=4) | episode 75/200
+[2025-12-29 15:21:38] ComputeSweep_N=128 | Dwell(k=4) | episode 100/200
+[2025-12-29 15:21:39] ComputeSweep_N=128 | Dwell(k=4) | episode 125/200
+[2025-12-29 15:21:40] ComputeSweep_N=128 | Dwell(k=4) | episode 150/200
+[2025-12-29 15:21:41] ComputeSweep_N=128 | Dwell(k=4) | episode 175/200
+[2025-12-29 15:22:13] ComputeSweep_N=128 EnvA Dwell(k=4) | R 41.74±11.06 | ch 0.496 | osc 28.50
+[2025-12-29 15:22:13] === Block Robust_Base (EnvB) | rollouts=8 horizon=12 ===
+[2025-12-29 15:22:25] Robust_Base | Argmax | episode 25/200
+[2025-12-29 15:22:37] Robust_Base | Argmax | episode 50/200
+[2025-12-29 15:22:48] Robust_Base | Argmax | episode 75/200
+[2025-12-29 15:23:00] Robust_Base | Argmax | episode 100/200
+[2025-12-29 15:23:12] Robust_Base | Argmax | episode 125/200
+[2025-12-29 15:23:24] Robust_Base | Argmax | episode 150/200
+[2025-12-29 15:23:35] Robust_Base | Argmax | episode 175/200
+[2025-12-29 15:30:09] Robust_Base EnvB Argmax | R 34.64±23.46 | ch 0.374 | osc 11.38
+[2025-12-29 15:30:09] Schema expanded (+20 keys). Rewriting rows CSV header.
+[2025-12-29 15:30:21] Robust_Base | Commitment | episode 25/200
+[2025-12-29 15:30:35] Robust_Base | Commitment | episode 50/200
+[2025-12-29 15:30:47] Robust_Base | Commitment | episode 75/200
+[2025-12-29 15:30:58] Robust_Base | Commitment | episode 100/200
+[2025-12-29 15:31:10] Robust_Base | Commitment | episode 125/200
+[2025-12-29 15:31:22] Robust_Base | Commitment | episode 150/200
+[2025-12-29 15:31:34] Robust_Base | Commitment | episode 175/200
+[2025-12-29 15:38:12] Robust_Base EnvB Commitment | R 43.29±26.61 | ch 0.133 | osc 1.12
+[2025-12-29 15:38:24] Robust_Base | Softmax(tau=0.6) | episode 25/200
+[2025-12-29 15:38:36] Robust_Base | Softmax(tau=0.6) | episode 50/200
+[2025-12-29 15:38:47] Robust_Base | Softmax(tau=0.6) | episode 75/200
+[2025-12-29 15:38:59] Robust_Base | Softmax(tau=0.6) | episode 100/200
+[2025-12-29 15:39:11] Robust_Base | Softmax(tau=0.6) | episode 125/200
+[2025-12-29 15:39:23] Robust_Base | Softmax(tau=0.6) | episode 150/200
+[2025-12-29 15:39:35] Robust_Base | Softmax(tau=0.6) | episode 175/200
+[2025-12-29 15:46:16] Robust_Base EnvB Softmax(tau=0.6) | R 31.19±24.55 | ch 0.474 | osc 12.74
+[2025-12-29 15:46:28] Robust_Base | LCB(k=1.0) | episode 25/200
+[2025-12-29 15:46:40] Robust_Base | LCB(k=1.0) | episode 50/200
+[2025-12-29 15:46:53] Robust_Base | LCB(k=1.0) | episode 75/200
+[2025-12-29 15:47:04] Robust_Base | LCB(k=1.0) | episode 100/200
+[2025-12-29 15:47:16] Robust_Base | LCB(k=1.0) | episode 125/200
+[2025-12-29 15:47:28] Robust_Base | LCB(k=1.0) | episode 150/200
+[2025-12-29 15:47:40] Robust_Base | LCB(k=1.0) | episode 175/200
+[2025-12-29 15:54:24] Robust_Base EnvB LCB(k=1.0) | R 27.03±20.66 | ch 0.563 | osc 14.87
+[2025-12-29 15:54:36] Robust_Base | EMA(values,a=0.2) | episode 25/200
+[2025-12-29 15:54:49] Robust_Base | EMA(values,a=0.2) | episode 50/200
+[2025-12-29 15:55:00] Robust_Base | EMA(values,a=0.2) | episode 75/200
+[2025-12-29 15:55:12] Robust_Base | EMA(values,a=0.2) | episode 100/200
+[2025-12-29 15:55:24] Robust_Base | EMA(values,a=0.2) | episode 125/200
+[2025-12-29 15:55:37] Robust_Base | EMA(values,a=0.2) | episode 150/200
+[2025-12-29 15:55:49] Robust_Base | EMA(values,a=0.2) | episode 175/200
+[2025-12-29 16:02:31] Robust_Base EnvB EMA(values,a=0.2) | R 50.06±25.54 | ch 0.077 | osc 1.40
+[2025-12-29 16:02:34] Robust_Base | Dwell(k=4) | episode 25/200
+[2025-12-29 16:02:37] Robust_Base | Dwell(k=4) | episode 50/200
+[2025-12-29 16:02:40] Robust_Base | Dwell(k=4) | episode 75/200
+[2025-12-29 16:02:43] Robust_Base | Dwell(k=4) | episode 100/200
+[2025-12-29 16:02:46] Robust_Base | Dwell(k=4) | episode 125/200
+[2025-12-29 16:02:49] Robust_Base | Dwell(k=4) | episode 150/200
+[2025-12-29 16:02:52] Robust_Base | Dwell(k=4) | episode 175/200
+[2025-12-29 16:04:34] Robust_Base EnvB Dwell(k=4) | R 44.56±26.70 | ch 0.100 | osc 0.00
+[2025-12-29 16:04:46] Robust_Base | Commit->Argmax(M=3) | episode 25/200
+[2025-12-29 16:04:58] Robust_Base | Commit->Argmax(M=3) | episode 50/200
+[2025-12-29 16:05:09] Robust_Base | Commit->Argmax(M=3) | episode 75/200
+[2025-12-29 16:05:21] Robust_Base | Commit->Argmax(M=3) | episode 100/200
+[2025-12-29 16:05:33] Robust_Base | Commit->Argmax(M=3) | episode 125/200
+[2025-12-29 16:05:45] Robust_Base | Commit->Argmax(M=3) | episode 150/200
+[2025-12-29 16:05:57] Robust_Base | Commit->Argmax(M=3) | episode 175/200
+[2025-12-29 16:12:34] Robust_Base EnvB Commit->Argmax(M=3) | R 43.29±26.61 | ch 0.133 | osc 1.12
+[2025-12-29 16:12:34] === Block Robust_Compute_N=2 (EnvB) | rollouts=2 horizon=12 ===
+[2025-12-29 16:12:37] Robust_Compute_N=2 | Argmax | episode 25/200
+[2025-12-29 16:12:41] Robust_Compute_N=2 | Argmax | episode 50/200
+[2025-12-29 16:12:44] Robust_Compute_N=2 | Argmax | episode 75/200
+[2025-12-29 16:12:47] Robust_Compute_N=2 | Argmax | episode 100/200
+[2025-12-29 16:12:50] Robust_Compute_N=2 | Argmax | episode 125/200
+[2025-12-29 16:12:54] Robust_Compute_N=2 | Argmax | episode 150/200
+[2025-12-29 16:12:57] Robust_Compute_N=2 | Argmax | episode 175/200
+[2025-12-29 16:14:44] Robust_Compute_N=2 EnvB Argmax | R 24.82±20.20 | ch 0.579 | osc 14.09
+[2025-12-29 16:14:48] Robust_Compute_N=2 | Commitment | episode 25/200
+[2025-12-29 16:14:51] Robust_Compute_N=2 | Commitment | episode 50/200
+[2025-12-29 16:14:54] Robust_Compute_N=2 | Commitment | episode 75/200
+[2025-12-29 16:14:58] Robust_Compute_N=2 | Commitment | episode 100/200
+[2025-12-29 16:15:01] Robust_Compute_N=2 | Commitment | episode 125/200
+[2025-12-29 16:15:04] Robust_Compute_N=2 | Commitment | episode 150/200
+[2025-12-29 16:15:07] Robust_Compute_N=2 | Commitment | episode 175/200
+[2025-12-29 16:16:56] Robust_Compute_N=2 EnvB Commitment | R 29.35±21.35 | ch 0.307 | osc 4.16
+[2025-12-29 16:16:59] Robust_Compute_N=2 | Softmax(tau=0.6) | episode 25/200
+[2025-12-29 16:17:03] Robust_Compute_N=2 | Softmax(tau=0.6) | episode 50/200
+[2025-12-29 16:17:06] Robust_Compute_N=2 | Softmax(tau=0.6) | episode 75/200
+[2025-12-29 16:17:09] Robust_Compute_N=2 | Softmax(tau=0.6) | episode 100/200
+[2025-12-29 16:17:12] Robust_Compute_N=2 | Softmax(tau=0.6) | episode 125/200
+[2025-12-29 16:17:16] Robust_Compute_N=2 | Softmax(tau=0.6) | episode 150/200
+[2025-12-29 16:17:19] Robust_Compute_N=2 | Softmax(tau=0.6) | episode 175/200
+[2025-12-29 16:19:09] Robust_Compute_N=2 EnvB Softmax(tau=0.6) | R 22.34±20.49 | ch 0.627 | osc 14.42
+[2025-12-29 16:19:12] Robust_Compute_N=2 | LCB(k=1.0) | episode 25/200
+[2025-12-29 16:19:16] Robust_Compute_N=2 | LCB(k=1.0) | episode 50/200
+[2025-12-29 16:19:19] Robust_Compute_N=2 | LCB(k=1.0) | episode 75/200
+[2025-12-29 16:19:22] Robust_Compute_N=2 | LCB(k=1.0) | episode 100/200
+[2025-12-29 16:19:26] Robust_Compute_N=2 | LCB(k=1.0) | episode 125/200
+[2025-12-29 16:19:29] Robust_Compute_N=2 | LCB(k=1.0) | episode 150/200
+[2025-12-29 16:19:32] Robust_Compute_N=2 | LCB(k=1.0) | episode 175/200
+[2025-12-29 16:21:22] Robust_Compute_N=2 EnvB LCB(k=1.0) | R 20.91±19.19 | ch 0.656 | osc 14.55
+[2025-12-29 16:21:25] Robust_Compute_N=2 | EMA(values,a=0.2) | episode 25/200
+[2025-12-29 16:21:28] Robust_Compute_N=2 | EMA(values,a=0.2) | episode 50/200
+[2025-12-29 16:21:32] Robust_Compute_N=2 | EMA(values,a=0.2) | episode 75/200
+[2025-12-29 16:21:35] Robust_Compute_N=2 | EMA(values,a=0.2) | episode 100/200
+[2025-12-29 16:21:38] Robust_Compute_N=2 | EMA(values,a=0.2) | episode 125/200
+[2025-12-29 16:21:42] Robust_Compute_N=2 | EMA(values,a=0.2) | episode 150/200
+[2025-12-29 16:21:45] Robust_Compute_N=2 | EMA(values,a=0.2) | episode 175/200
+[2025-12-29 16:23:35] Robust_Compute_N=2 EnvB EMA(values,a=0.2) | R 42.18±26.45 | ch 0.135 | osc 2.78
+[2025-12-29 16:23:36] Robust_Compute_N=2 | Dwell(k=4) | episode 25/200
+[2025-12-29 16:23:37] Robust_Compute_N=2 | Dwell(k=4) | episode 50/200
+[2025-12-29 16:23:38] Robust_Compute_N=2 | Dwell(k=4) | episode 75/200
+[2025-12-29 16:23:39] Robust_Compute_N=2 | Dwell(k=4) | episode 100/200
+[2025-12-29 16:23:40] Robust_Compute_N=2 | Dwell(k=4) | episode 125/200
+[2025-12-29 16:23:41] Robust_Compute_N=2 | Dwell(k=4) | episode 150/200
+[2025-12-29 16:23:41] Robust_Compute_N=2 | Dwell(k=4) | episode 175/200
+[2025-12-29 16:24:10] Robust_Compute_N=2 EnvB Dwell(k=4) | R 27.68±22.19 | ch 0.151 | osc 0.00
+[2025-12-29 16:24:13] Robust_Compute_N=2 | Commit->Argmax(M=3) | episode 25/200
+[2025-12-29 16:24:16] Robust_Compute_N=2 | Commit->Argmax(M=3) | episode 50/200
+[2025-12-29 16:24:19] Robust_Compute_N=2 | Commit->Argmax(M=3) | episode 75/200
+[2025-12-29 16:24:23] Robust_Compute_N=2 | Commit->Argmax(M=3) | episode 100/200
+[2025-12-29 16:24:26] Robust_Compute_N=2 | Commit->Argmax(M=3) | episode 125/200
+[2025-12-29 16:24:29] Robust_Compute_N=2 | Commit->Argmax(M=3) | episode 150/200
+[2025-12-29 16:24:33] Robust_Compute_N=2 | Commit->Argmax(M=3) | episode 175/200
+[2025-12-29 16:26:21] Robust_Compute_N=2 EnvB Commit->Argmax(M=3) | R 29.35±21.35 | ch 0.307 | osc 4.16
+[2025-12-29 16:26:21] === Block Robust_Compute_N=8 (EnvB) | rollouts=8 horizon=12 ===
+[2025-12-29 16:26:33] Robust_Compute_N=8 | Argmax | episode 25/200
+[2025-12-29 16:26:45] Robust_Compute_N=8 | Argmax | episode 50/200
+[2025-12-29 16:26:57] Robust_Compute_N=8 | Argmax | episode 75/200
+[2025-12-29 16:27:09] Robust_Compute_N=8 | Argmax | episode 100/200
+[2025-12-29 16:27:21] Robust_Compute_N=8 | Argmax | episode 125/200
+[2025-12-29 16:27:32] Robust_Compute_N=8 | Argmax | episode 150/200
+[2025-12-29 16:27:44] Robust_Compute_N=8 | Argmax | episode 175/200
+[2025-12-29 16:34:16] Robust_Compute_N=8 EnvB Argmax | R 34.64±23.46 | ch 0.374 | osc 11.38
+[2025-12-29 16:34:27] Robust_Compute_N=8 | Commitment | episode 25/200
+[2025-12-29 16:34:39] Robust_Compute_N=8 | Commitment | episode 50/200
+[2025-12-29 16:34:51] Robust_Compute_N=8 | Commitment | episode 75/200
+[2025-12-29 16:35:03] Robust_Compute_N=8 | Commitment | episode 100/200
+[2025-12-29 16:35:15] Robust_Compute_N=8 | Commitment | episode 125/200
+[2025-12-29 16:35:27] Robust_Compute_N=8 | Commitment | episode 150/200
+[2025-12-29 16:35:38] Robust_Compute_N=8 | Commitment | episode 175/200
+[2025-12-29 16:42:10] Robust_Compute_N=8 EnvB Commitment | R 43.29±26.61 | ch 0.133 | osc 1.12
+[2025-12-29 16:42:22] Robust_Compute_N=8 | Softmax(tau=0.6) | episode 25/200
+[2025-12-29 16:42:34] Robust_Compute_N=8 | Softmax(tau=0.6) | episode 50/200
+[2025-12-29 16:42:46] Robust_Compute_N=8 | Softmax(tau=0.6) | episode 75/200
+[2025-12-29 16:42:58] Robust_Compute_N=8 | Softmax(tau=0.6) | episode 100/200
+[2025-12-29 16:43:10] Robust_Compute_N=8 | Softmax(tau=0.6) | episode 125/200
+[2025-12-29 16:43:22] Robust_Compute_N=8 | Softmax(tau=0.6) | episode 150/200
+[2025-12-29 16:43:34] Robust_Compute_N=8 | Softmax(tau=0.6) | episode 175/200
+[2025-12-29 16:50:09] Robust_Compute_N=8 EnvB Softmax(tau=0.6) | R 31.19±24.55 | ch 0.474 | osc 12.74
+[2025-12-29 16:50:21] Robust_Compute_N=8 | LCB(k=1.0) | episode 25/200
+[2025-12-29 16:50:33] Robust_Compute_N=8 | LCB(k=1.0) | episode 50/200
+[2025-12-29 16:50:45] Robust_Compute_N=8 | LCB(k=1.0) | episode 75/200
+[2025-12-29 16:50:57] Robust_Compute_N=8 | LCB(k=1.0) | episode 100/200
+[2025-12-29 16:51:09] Robust_Compute_N=8 | LCB(k=1.0) | episode 125/200
+[2025-12-29 16:51:21] Robust_Compute_N=8 | LCB(k=1.0) | episode 150/200
+[2025-12-29 16:51:32] Robust_Compute_N=8 | LCB(k=1.0) | episode 175/200
+[2025-12-29 16:58:04] Robust_Compute_N=8 EnvB LCB(k=1.0) | R 27.03±20.66 | ch 0.563 | osc 14.87
+[2025-12-29 16:58:16] Robust_Compute_N=8 | EMA(values,a=0.2) | episode 25/200
+[2025-12-29 16:58:28] Robust_Compute_N=8 | EMA(values,a=0.2) | episode 50/200
+[2025-12-29 16:58:40] Robust_Compute_N=8 | EMA(values,a=0.2) | episode 75/200
+[2025-12-29 16:58:52] Robust_Compute_N=8 | EMA(values,a=0.2) | episode 100/200
+[2025-12-29 16:59:03] Robust_Compute_N=8 | EMA(values,a=0.2) | episode 125/200
+[2025-12-29 16:59:15] Robust_Compute_N=8 | EMA(values,a=0.2) | episode 150/200
+[2025-12-29 16:59:27] Robust_Compute_N=8 | EMA(values,a=0.2) | episode 175/200
+[2025-12-29 17:05:58] Robust_Compute_N=8 EnvB EMA(values,a=0.2) | R 50.06±25.54 | ch 0.077 | osc 1.40
+[2025-12-29 17:06:01] Robust_Compute_N=8 | Dwell(k=4) | episode 25/200
+[2025-12-29 17:06:04] Robust_Compute_N=8 | Dwell(k=4) | episode 50/200
+[2025-12-29 17:06:07] Robust_Compute_N=8 | Dwell(k=4) | episode 75/200
+[2025-12-29 17:06:10] Robust_Compute_N=8 | Dwell(k=4) | episode 100/200
+[2025-12-29 17:06:13] Robust_Compute_N=8 | Dwell(k=4) | episode 125/200
+[2025-12-29 17:06:16] Robust_Compute_N=8 | Dwell(k=4) | episode 150/200
+[2025-12-29 17:06:19] Robust_Compute_N=8 | Dwell(k=4) | episode 175/200
+[2025-12-29 17:07:59] Robust_Compute_N=8 EnvB Dwell(k=4) | R 44.56±26.70 | ch 0.100 | osc 0.00
+[2025-12-29 17:08:11] Robust_Compute_N=8 | Commit->Argmax(M=3) | episode 25/200
+[2025-12-29 17:08:23] Robust_Compute_N=8 | Commit->Argmax(M=3) | episode 50/200
+[2025-12-29 17:08:35] Robust_Compute_N=8 | Commit->Argmax(M=3) | episode 75/200
+[2025-12-29 17:08:46] Robust_Compute_N=8 | Commit->Argmax(M=3) | episode 100/200
+[2025-12-29 17:08:58] Robust_Compute_N=8 | Commit->Argmax(M=3) | episode 125/200
+[2025-12-29 17:09:10] Robust_Compute_N=8 | Commit->Argmax(M=3) | episode 150/200
+[2025-12-29 17:09:22] Robust_Compute_N=8 | Commit->Argmax(M=3) | episode 175/200
+[2025-12-29 17:15:54] Robust_Compute_N=8 EnvB Commit->Argmax(M=3) | R 43.29±26.61 | ch 0.133 | osc 1.12
+[2025-12-29 17:15:54] === Block Robust_Compute_N=32 (EnvB) | rollouts=32 horizon=12 ===
+[2025-12-29 17:16:40] Robust_Compute_N=32 | Argmax | episode 25/200
+[2025-12-29 17:17:25] Robust_Compute_N=32 | Argmax | episode 50/200
+[2025-12-29 17:18:11] Robust_Compute_N=32 | Argmax | episode 75/200
+[2025-12-29 17:18:56] Robust_Compute_N=32 | Argmax | episode 100/200
+[2025-12-29 17:19:42] Robust_Compute_N=32 | Argmax | episode 125/200
+[2025-12-29 17:20:27] Robust_Compute_N=32 | Argmax | episode 150/200
+[2025-12-29 17:21:13] Robust_Compute_N=32 | Argmax | episode 175/200
+[2025-12-29 17:46:28] Robust_Compute_N=32 EnvB Argmax | R 42.31±27.11 | ch 0.209 | osc 6.63
+[2025-12-29 17:47:13] Robust_Compute_N=32 | Commitment | episode 25/200
+[2025-12-29 17:47:59] Robust_Compute_N=32 | Commitment | episode 50/200
+[2025-12-29 17:48:45] Robust_Compute_N=32 | Commitment | episode 75/200
+[2025-12-29 17:49:30] Robust_Compute_N=32 | Commitment | episode 100/200
+[2025-12-29 17:50:16] Robust_Compute_N=32 | Commitment | episode 125/200
+[2025-12-29 17:51:03] Robust_Compute_N=32 | Commitment | episode 150/200
+[2025-12-29 17:51:49] Robust_Compute_N=32 | Commitment | episode 175/200
+[2025-12-29 18:16:57] Robust_Compute_N=32 EnvB Commitment | R 51.39±25.42 | ch 0.070 | osc 0.40
+[2025-12-29 18:17:43] Robust_Compute_N=32 | Softmax(tau=0.6) | episode 25/200
+[2025-12-29 18:18:29] Robust_Compute_N=32 | Softmax(tau=0.6) | episode 50/200
+[2025-12-29 18:19:15] Robust_Compute_N=32 | Softmax(tau=0.6) | episode 75/200
+[2025-12-29 18:20:01] Robust_Compute_N=32 | Softmax(tau=0.6) | episode 100/200
+[2025-12-29 18:20:47] Robust_Compute_N=32 | Softmax(tau=0.6) | episode 125/200
+[2025-12-29 18:21:33] Robust_Compute_N=32 | Softmax(tau=0.6) | episode 150/200
+[2025-12-29 18:22:19] Robust_Compute_N=32 | Softmax(tau=0.6) | episode 175/200
+[2025-12-29 18:47:32] Robust_Compute_N=32 EnvB Softmax(tau=0.6) | R 34.54±26.16 | ch 0.383 | osc 10.53
+[2025-12-29 18:48:18] Robust_Compute_N=32 | LCB(k=1.0) | episode 25/200
+[2025-12-29 18:49:03] Robust_Compute_N=32 | LCB(k=1.0) | episode 50/200
+[2025-12-29 18:49:49] Robust_Compute_N=32 | LCB(k=1.0) | episode 75/200
+[2025-12-29 18:50:35] Robust_Compute_N=32 | LCB(k=1.0) | episode 100/200
+[2025-12-29 18:51:20] Robust_Compute_N=32 | LCB(k=1.0) | episode 125/200
+[2025-12-29 18:52:06] Robust_Compute_N=32 | LCB(k=1.0) | episode 150/200
+[2025-12-29 18:52:51] Robust_Compute_N=32 | LCB(k=1.0) | episode 175/200
+[2025-12-29 19:18:07] Robust_Compute_N=32 EnvB LCB(k=1.0) | R 34.02±24.34 | ch 0.389 | osc 11.62
+[2025-12-29 19:18:52] Robust_Compute_N=32 | EMA(values,a=0.2) | episode 25/200
+[2025-12-29 19:19:38] Robust_Compute_N=32 | EMA(values,a=0.2) | episode 50/200
+[2025-12-29 19:20:23] Robust_Compute_N=32 | EMA(values,a=0.2) | episode 75/200
+[2025-12-29 19:21:09] Robust_Compute_N=32 | EMA(values,a=0.2) | episode 100/200
+[2025-12-29 19:21:55] Robust_Compute_N=32 | EMA(values,a=0.2) | episode 125/200
+[2025-12-29 19:22:40] Robust_Compute_N=32 | EMA(values,a=0.2) | episode 150/200
+[2025-12-29 19:23:26] Robust_Compute_N=32 | EMA(values,a=0.2) | episode 175/200
+[2025-12-29 19:48:35] Robust_Compute_N=32 EnvB EMA(values,a=0.2) | R 53.33±24.25 | ch 0.048 | osc 0.66
+[2025-12-29 19:48:48] Robust_Compute_N=32 | Dwell(k=4) | episode 25/200
+[2025-12-29 19:48:59] Robust_Compute_N=32 | Dwell(k=4) | episode 50/200
+[2025-12-29 19:49:11] Robust_Compute_N=32 | Dwell(k=4) | episode 75/200
+[2025-12-29 19:49:23] Robust_Compute_N=32 | Dwell(k=4) | episode 100/200
+[2025-12-29 19:49:35] Robust_Compute_N=32 | Dwell(k=4) | episode 125/200
+[2025-12-29 19:49:46] Robust_Compute_N=32 | Dwell(k=4) | episode 150/200
+[2025-12-29 19:49:58] Robust_Compute_N=32 | Dwell(k=4) | episode 175/200
+[2025-12-29 19:56:24] Robust_Compute_N=32 EnvB Dwell(k=4) | R 51.15±24.42 | ch 0.062 | osc 0.00
+[2025-12-29 19:57:10] Robust_Compute_N=32 | Commit->Argmax(M=3) | episode 25/200
+[2025-12-29 19:57:56] Robust_Compute_N=32 | Commit->Argmax(M=3) | episode 50/200
+[2025-12-29 19:58:42] Robust_Compute_N=32 | Commit->Argmax(M=3) | episode 75/200
+[2025-12-29 19:59:28] Robust_Compute_N=32 | Commit->Argmax(M=3) | episode 100/200
+[2025-12-29 20:00:13] Robust_Compute_N=32 | Commit->Argmax(M=3) | episode 125/200
+[2025-12-29 20:00:59] Robust_Compute_N=32 | Commit->Argmax(M=3) | episode 150/200
+[2025-12-29 20:01:45] Robust_Compute_N=32 | Commit->Argmax(M=3) | episode 175/200
+[2025-12-29 20:26:56] Robust_Compute_N=32 EnvB Commit->Argmax(M=3) | R 51.39±25.42 | ch 0.070 | osc 0.40

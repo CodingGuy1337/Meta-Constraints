@@ -1,0 +1,27 @@
+{
+  "agents": [
+    "InstantObs",
+    "ZState(alpha)"
+  ],
+  "d": 16,
+  "env": {
+    "churn_thresh": 6,
+    "churn_window": 30,
+    "delay": 8,
+    "delayed_penalty": 0.25,
+    "drift_sigma": 0.03,
+    "obs_noise": 0.25,
+    "reward_noise": 0.05,
+    "shock_prob": 0.02,
+    "shock_scale": 0.35,
+    "switch_cost": 0.02
+  },
+  "episodes": 200,
+  "horizon": 250,
+  "k_actions": 12,
+  "seeds": 16,
+  "started_utc": "2025-12-30 06:08:22 UTC",
+  "z_state": {
+    "alpha": 0.08
+  }
+}

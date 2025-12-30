@@ -1,0 +1,17 @@
+PS C:\Users\tjsch\Desktop\stuff\Trinity> & C:/Users/tjsch/AppData/Local/Programs/Python/Python310/python.exe c:/Users/tjsch/Desktop/stuff/Trinity/vigilance.py
+
+=== Bursty Dataset Vigilance Experiment ===
+T=600 K=8 M=12 stable_mean=120 (min=40, max=220) storm_len=0
+gap=2.0 sigma=0.35  noise_bursts: prob=0.012 len=10 sigma_burst=1.0
+switch_cost=0.12 delay=25 churn_penalty=0.5
+metrics: post_window=30 near_cp=6
+
+Agent                        |         Reward |      Churn |       Lag |  FalseAlm |    PostAUC
+-----------------------------------------------------------------------------------------------
+GreedyArgmax                 |   258.39±196.18 |  0.005±0.007 |  26.53±4.09 |  0.734±0.441 |   51.52± 9.68
+Softmax                      |   124.66±109.99 |  0.717±0.065 |  15.33±5.00 |  0.890±0.035 |   52.49± 4.68
+EMA                          |   414.82±184.36 |  0.018±0.016 |  25.90±3.91 |  0.887±0.204 |   48.29± 8.28
+FixedDwell                   |   236.77±191.85 |  0.004±0.004 |  26.05±3.97 |  0.663±0.453 |   50.00± 8.96
+EvidentialCommitment         |   183.02±150.81 |  0.003±0.003 |  27.41±3.71 |  0.680±0.458 |   51.36± 7.59
+Vigilance(HazardGate+Precision) |   136.99±150.17 |  0.004±0.005 |  28.63±2.65 |  0.624±0.456 |   55.31± 7.61
+PS C:\Users\tjsch\Desktop\stuff\Trinity>
